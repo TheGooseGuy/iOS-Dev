@@ -1,0 +1,63 @@
+Xcode -> File -> New -> Playground -> MacOS
+# Variables and Constants
+```Swift
+var greeting = "Hello, playground"
+```
+`var`: create a new variable  
+`greeting`: variable name  
+`"Hello, playground"`: initial value  
+
+```Swift
+var name = "Ted"
+name = "Rebecca"
+name = "Keeley"
+```
+only use `var` to create a variable, not when changing the value of a variable
+
+```Swift
+let character = "Daphne"
+```
+this is unchangeable, will report error if it gets changed
+
+```Swift
+var playerName = "Daphne"
+print(playerName)
+
+playerName = "Dani"
+print(playerName)
+```
+
+Prefer to use constants rather than variables, because:
+1. allow Swift to optimize the code
+2. allow Swift to make sure you don't change a constant's value by accident.
+
+Constants are basically variables that can't be changed.
+# Strings
+```Swift
+let string1 = "This is a string."
+
+let string2 = "This is a \"string\"" 
+
+let string3 = """
+Strings
+can be
+breaked
+into lines
+using
+triple quotes
+"""
+
+print(string1.count)
+
+
+print(string1.uppercased())
+
+print(string1.hasPrefix("This"))
+print(string2.hasSuffix("."))
+```
+**Strings are case-sensitive** in Swift
+
+Use triple quotes to break lines for long text (unless?)
+# Store Whole Numbers
+
+# Store Decimal Numbers

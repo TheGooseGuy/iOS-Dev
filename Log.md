@@ -5,9 +5,13 @@ Started from [this post](https://www.reddit.com/r/iOSProgramming/comments/11qit8
 Installed Xcode 16  
 
 **30** Day 2  
-Made notes on the post.  
+Made notes on the *post*.  
 Checked the iOS Dev Roadmap.  
 Installed SF Symbols 6.  
 Installed POSTMAN.  
 Started <100 Days of SwiftUI>  
-100 Days of SwiftUI day 0  
+100 Days of SwiftUI Day 0  
+## October
+**01** Day 3  
+100 Days of SwiftUI Day 1 1-5
+
