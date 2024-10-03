@@ -13,5 +13,9 @@ Started <100 Days of SwiftUI>
 100 Days of SwiftUI Day 0  
 ## October
 **01** Day 3  
-100 Days of SwiftUI Day 1 1-5
+100 Days of SwiftUI Day 1 1-5  
 
+**02** Day 4  
+100 Days of SwiftUI Day 1 6-7  
+100 Days of SwiftUI Day 2  
+    Finished Checkpoint 1
