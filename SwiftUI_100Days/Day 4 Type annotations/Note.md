@@ -23,11 +23,12 @@ Type annoations for data structures so long:
 var teams: [String] = [String]()
 ```
 Use type annotation when creating an empty array of strings
-```
+
 
 ```Swift
 var cities: [String] = [] // with type annotation
 var clues = [String]() // without type annotation
+```
 
 
 ```Swift
