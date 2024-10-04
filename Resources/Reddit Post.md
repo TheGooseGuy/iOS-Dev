@@ -54,7 +54,7 @@ No programming experience (x) -> [Unity](https://learn.unity.com/project/roll-a-
 [Paul Hudson: Hacking With Swift](https://www.hackingwithswift.com/) The famous 100 Days of Swift  
 
 After visited a few tutorials, finish these projects:  
-- [ ] A read time chat application using firebase
+- [ ] A real time chat application using firebase
 - [ ] A map application using Mapkit
 - [ ] A to-do list using coredata
 - [ ] A music playing app using AVFoundation

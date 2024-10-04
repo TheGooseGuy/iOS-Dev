@@ -6,6 +6,6 @@ Your goal is to write a Swift playground that:
 ```Swift
 let Celcius_Temperature = 25
 let Fahrenheit_Temperature = Celcius_Temperature * 9 / 5 + 32
-print(Fahrenheit_Temperature)
+print("Celcius:", Celcius_Temperature, "Fahrenheit:", Fahrenheit_Temperature)
 ```
-`80`
+`77`

@@ -24,4 +24,8 @@ Started <100 Days of SwiftUI>
 - [x] 100 Days of SwiftUI Day 3
 
 **04** Day 6
-- [ ] 100 Days of SwiftUI Day 4
+- [x] 100 Days of SwiftUI Day 4
+- [x] Checkpoint 2
+
+**05** Day 7
+- [ ] 100 Days of SwiftUI Day 5
