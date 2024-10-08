@@ -9,7 +9,7 @@ Made notes on the *post*.
 Checked the iOS Dev Roadmap.  
 Installed SF Symbols 6.  
 Installed POSTMAN.  
-Started <100 Days of SwiftUI>  
+Started [***100 Days of SwiftUI***](https://www.hackingwithswift.com/100/swiftui)  
 100 Days of SwiftUI Day 0  
 ## October
 **01** Day 3  
@@ -32,3 +32,13 @@ Started <100 Days of SwiftUI>
 
 **06** Day 8  
 - [ ] 100 Days of SwiftUI Day 6
+- [ ] Checkpoint 3
+Unfinished due to project 6100
+
+**07** Day 9  
+100 Days of SwiftUI Day 6 1  
+
+**08** Day 10  
+- [ ] 100 Days of SwiftUI Day 6 2...5
+- [ ] Checkpoint 3
+
