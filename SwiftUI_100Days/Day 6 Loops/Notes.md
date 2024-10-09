@@ -48,3 +48,17 @@ When the loop variable doesn't matter, use an underscore. (Make the code run fas
 `1...`: from 1 to the end
 
 # While Loop
+```Swift
+var countdown = 10
+
+while countdown > 0 {
+    print("\(countdown)…")
+    countdown -= 1
+}
+
+print("Blast off!")
+```
+for loops are more common than while loops
+
+while loop can keep the loop going around and until we are ready to exit
+
