@@ -44,15 +44,16 @@ Unfinished due to project 6100
 100 Days of SwiftUI Day 6 2  
 
 **09** Day 11  
-No Swift today, AI project due 11th  
+No Swift today, project due 11th  
 
 **10** Day 12  
-No Swift today, AI project due 11th  
+- [ ] 100 Days of SwiftUI Day 6 3-5
+- [ ] Checkpoint 3
 
 **11** Day 13  
-No Swift today, AI project due
+No Swift today, project due
 
 **12-14**  
-Travel?
+Travel
 
 **15** Day 17  
