@@ -47,8 +47,7 @@ Unfinished due to project 6100
 No Swift today, project due 11th  
 
 **10** Day 12  
-- [ ] 100 Days of SwiftUI Day 6 3-5
-- [ ] Checkpoint 3
+No Swift today, project due 11th
 
 **11** Day 13  
 No Swift today, project due
