@@ -56,3 +56,17 @@ No Swift today, project due
 Travel
 
 **15** Day 17  
+No Swift today, project due 16th
+
+**16** Day 18  
+No Swift today, project due
+
+**17** Day 19  
+No Swift today, project proposal due 18th
+
+**18** Day 20
+Swift review & wrap up
+
+**19** Day 21
+- [ ] Swift review & wrap up
+- [ ] 100 Days of SwiftUI Day 6
