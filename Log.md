@@ -68,5 +68,8 @@ No Swift today, project proposal due 18th
 Swift review & wrap up
 
 **19** Day 21
-- [ ] Swift review & wrap up
-- [ ] 100 Days of SwiftUI Day 6
+- [x] Swift review & wrap up
+- [x] 100 Days of SwiftUI Day 6
+
+**20** Day 22
+- [ ] 100 Days of SwiftUI Day 7
