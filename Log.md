@@ -31,9 +31,9 @@ Started [***100 Days of SwiftUI***](https://www.hackingwithswift.com/100/swiftui
 - [x] 100 Days of SwiftUI Day 5  
 
 **06** Day 8  
-- [ ] 100 Days of SwiftUI Day 6
-- [ ] Checkpoint 3
-Unfinished due to project 6100
+- [ ] 100 Days of SwiftUI Day 6  
+- [ ] Checkpoint 3  
+Unfinished due to project 6100  
 
 **07** Day 9  
 100 Days of SwiftUI Day 6 1  
@@ -47,29 +47,32 @@ Unfinished due to project 6100
 No Swift today, project due 11th  
 
 **10** Day 12  
-No Swift today, project due 11th
+No Swift today, project due 11th  
 
 **11** Day 13  
-No Swift today, project due
+No Swift today, project due  
 
 **12-14**  
-Travel
+Travel  
 
 **15** Day 17  
-No Swift today, project due 16th
+No Swift today, project due 16th  
 
 **16** Day 18  
-No Swift today, project due
+No Swift today, project due  
 
 **17** Day 19  
-No Swift today, project proposal due 18th
+No Swift today, project proposal due 18th  
 
-**18** Day 20
-Swift review & wrap up
+**18** Day 20  
+Swift review & wrap up  
 
-**19** Day 21
-- [x] Swift review & wrap up
-- [x] 100 Days of SwiftUI Day 6
+**19** Day 21  
+- [x] Swift review & wrap up  
+- [x] 100 Days of SwiftUI Day 6  
 
-**20** Day 22
-- [ ] 100 Days of SwiftUI Day 7
+**20** Day 22  
+- [x] 100 Days of SwiftUI Day 7
+
+**21** Day 23
+- [ ] 100 Days of SwiftUI Day 8
