@@ -72,7 +72,14 @@ Swift review & wrap up
 - [x] 100 Days of SwiftUI Day 6  
 
 **20** Day 22  
-- [x] 100 Days of SwiftUI Day 7
+- [x] 100 Days of SwiftUI Day 7  
 
-**21** Day 23
-- [ ] 100 Days of SwiftUI Day 8
+**21** Day 23  
+- [ ] 100 Days of SwiftUI Day 8  
+8.1  
+
+**22** Day 24
+- [ ] 100 Days of SwiftUI Day 8 8.2-8.3
+- [ ] Checkpoint 4
+- [ ] 100 Days of SwiftUI Day 9
+- [ ] 100 Days of SwiftUI Day 10
