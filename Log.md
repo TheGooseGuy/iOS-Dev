@@ -78,8 +78,13 @@ Swift review & wrap up
 - [ ] 100 Days of SwiftUI Day 8  
 8.1  
 
-**22** Day 24
-- [ ] 100 Days of SwiftUI Day 8 8.2-8.3
-- [ ] Checkpoint 4
+**22** Day 24  
+- [x] 100 Days of SwiftUI Day 8 8.2-8.3  
+- [x] Checkpoint 4  
+- [ ] 100 Days of SwiftUI Day 9  
+100 Days of SwiftUI 9.1  
+- [ ] 100 Days of SwiftUI Day 10  
+  
+**23** Day 25
 - [ ] 100 Days of SwiftUI Day 9
-- [ ] 100 Days of SwiftUI Day 10
+- [ ] Swift wrap up
