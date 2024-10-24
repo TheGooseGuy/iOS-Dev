@@ -1,0 +1,2366 @@
+{
+  "nodes": [
+    {
+      "id": "9b513db0b960e2da",
+      "type": "text",
+      "text": "Variables, Constants, Strings, and Numbers\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1900,
+      "y": -3393,
+      "width": 443,
+      "height": 60
+    },
+    {
+      "id": "141ed29ad8c9e822",
+      "type": "text",
+      "text": "Variables\n",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1244,
+      "y": -3823,
+      "width": 131,
+      "height": 55
+    },
+    {
+      "id": "178d1b8de82b1462",
+      "type": "text",
+      "text": "```Swift\nlet number = 10\nlet large_number = 10_000_000 // Swift ignores underscore\n```\n",
+      "styleAttributes": {},
+      "x": -790,
+      "y": -3126,
+      "width": 780,
+      "height": 113
+    },
+    {
+      "id": "3292ca5cf8c2a87a",
+      "type": "text",
+      "text": "Double",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -980,
+      "y": -2928,
+      "width": 120,
+      "height": 50
+    },
+    {
+      "id": "5ec40c719b299d70",
+      "type": "text",
+      "text": "```Swift\nvar variable = \"Changeable\"\nvariable = \"a new value\"\n```",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -980,
+      "y": -3840,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "5394682ce3d536fc",
+      "type": "text",
+      "text": "Integer",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -980,
+      "y": -3099,
+      "width": 120,
+      "height": 60
+    },
+    {
+      "id": "5aa162f656968727",
+      "type": "text",
+      "text": "```Swift\nlet doubles = 0.1 + 0.2 // 0.30000000000000004\n```",
+      "styleAttributes": {},
+      "x": -790,
+      "y": -2933,
+      "width": 584,
+      "height": 60
+    },
+    {
+      "id": "84a424f3165f2681",
+      "type": "text",
+      "text": "```Swift\nnumber.isMultiple(of: 3) // true/false\n```",
+      "styleAttributes": {},
+      "x": 140,
+      "y": -3188,
+      "width": 495,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "56b071f398878bf4",
+      "type": "text",
+      "text": "```Swift\n// Just like Python\nvar n = 10\nn += 2\nn -= 2\nn *= 2\nn /= 2\n```",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": 140,
+      "y": -3112,
+      "width": 296,
+      "height": 234,
+      "color": "2"
+    },
+    {
+      "id": "df49d10fac55fa5f",
+      "type": "text",
+      "text": "`true`, `false`, `!`",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -2824,
+      "width": 220,
+      "height": 60
+    },
+    {
+      "id": "8da4af6ce6017424",
+      "type": "text",
+      "text": "```Swift\nvar a = false // This is a boolean variable\na.toggle()\nprint(a) // true\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -2728,
+      "width": 526,
+      "height": 172
+    },
+    {
+      "id": "e1600dcea992d1b9",
+      "type": "text",
+      "text": "Booleans, Strings Interpolation",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null,
+        "border": null
+      },
+      "x": -1832,
+      "y": -2556,
+      "width": 308,
+      "height": 60
+    },
+    {
+      "id": "cdbd019412bb5c3d",
+      "type": "text",
+      "text": "Arrays, Dictionaries, Sets, and Enums",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1869,
+      "y": -1420,
+      "width": 383,
+      "height": 60
+    },
+    {
+      "id": "7372042644a8a9c0",
+      "type": "text",
+      "text": "Constants",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1243,
+      "y": -3689,
+      "width": 129,
+      "height": 59
+    },
+    {
+      "id": "d42ddf14281aef8f",
+      "type": "text",
+      "text": "```Swift\nlet constants = \"unchangeable\"\n```",
+      "x": -980,
+      "y": -3708,
+      "width": 400,
+      "height": 97
+    },
+    {
+      "id": "6b90af6d0570153e",
+      "type": "text",
+      "text": "```Swift\n// Swift can work with emojis\nlet x = \"😅\"\nprint(x)\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -3324,
+      "width": 395,
+      "height": 136
+    },
+    {
+      "id": "f90f19fbf1fdf335",
+      "type": "text",
+      "text": "```Swift\nvar x = \"string\"\nx = 3 // Error\n// Cannot assign to value: 'x' is a 'let' constant\n\n// Variable type cannot be changed\n// Swift is a type-safe language\n```",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "x": -232,
+      "y": -3840,
+      "width": 620,
+      "height": 229,
+      "color": "1"
+    },
+    {
+      "id": "607a1de2c02dc6b4",
+      "type": "text",
+      "text": "```Swift\nlet string = \"this is a string\"\nlet long_string = \"\"\"\nstrings can be breaked\ninto lines\nusing triple quotes\n\"\"\"\n```\n",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": -980,
+      "y": -3582,
+      "width": 450,
+      "height": 228
+    },
+    {
+      "id": "85250fdfe43ed595",
+      "type": "text",
+      "text": "Strings",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1230,
+      "y": -3468,
+      "width": 103,
+      "height": 60
+    },
+    {
+      "id": "9bdf8df4eb1392c1",
+      "type": "text",
+      "text": "Numbers\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1243,
+      "y": -3013,
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": "1ff32adfb4e01fb3",
+      "type": "text",
+      "text": "Booleans",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1256,
+      "y": -2764,
+      "width": 156,
+      "height": 73
+    },
+    {
+      "id": "88300b7da8efe786",
+      "type": "text",
+      "text": "Strings Interpolation\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1303,
+      "y": -2378,
+      "width": 250,
+      "height": 62
+    },
+    {
+      "id": "1a411790782d160d",
+      "type": "text",
+      "text": "Array",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1243,
+      "y": -2057,
+      "width": 130,
+      "height": 58
+    },
+    {
+      "id": "731a4a8a78023bb1",
+      "type": "text",
+      "text": "```Swift\nlet a = 1\nlet b = 2.0\nlet c = a + b // Error\n// Binary operator '+' cannot be applied to operands of type 'Int' and 'Double'\nlet c = a + Int(b) // 3\nlet c = Double(a) + b // 3.0\n```",
+      "styleAttributes": {},
+      "x": -119,
+      "y": -2754,
+      "width": 919,
+      "height": 224
+    },
+    {
+      "id": "7252188e30520125",
+      "type": "text",
+      "text": "```Swift\nstring.count\nstring.uppercased()\nstring.hasPrefix(\"the prefix\") // true/false\nstring.hasSuffix(\"the suffix\") // true/false\n```",
+      "styleAttributes": {},
+      "x": -420,
+      "y": -3438,
+      "width": 560,
+      "height": 168,
+      "color": "2"
+    },
+    {
+      "id": "33d459e6af9225a8",
+      "type": "text",
+      "text": "```Swift\narray.count\narray.append()\narray.remove(at: )\narray.removeAll()\narray.contains()\narray.sorted()\n```",
+      "styleAttributes": {},
+      "x": -294,
+      "y": -2104,
+      "width": 280,
+      "height": 211,
+      "color": "2"
+    },
+    {
+      "id": "a6ed2b18986d834b",
+      "type": "text",
+      "text": "```Swift\n// Array can only hold 1 type of data\nvar array = [\"element1\", \"element2\", \"element3\"] \nprint(array[1]) // Index starts at 0\n\narray.append(\"element4\") // to add new items\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -2290,
+      "width": 593,
+      "height": 186
+    },
+    {
+      "id": "0c0b5aac5e2884d1",
+      "type": "text",
+      "text": "```Swift\nlet string1 = \"a\"\nlet string2 = \"b\"\n// Use '+' to join strings together\nlet joined = string1 + string2\nprint(joined) // ab\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -2536,
+      "width": 446,
+      "height": 220
+    },
+    {
+      "id": "172068f98f7bca62",
+      "type": "text",
+      "text": "```Swift\n// Strings Interpolation in much more efficient than `+` join\nlet name = \"Goose\"\nlet age = 22\nlet message = \"Hello, my name is \\(name) and I'm \\(age) years old.\"\n\nprint(message)\n```",
+      "styleAttributes": {},
+      "x": -360,
+      "y": -2457,
+      "width": 792,
+      "height": 220
+    },
+    {
+      "id": "05620bd6ddd7b280",
+      "type": "text",
+      "text": "```Swift\n// Use `Array<Int>`, `Array<String>()` to specify the type of array. Or use `[String]()` to create an array with type string.\nvar scores = Array<Int>()\nscores.append(100)\nscores.append(80)\nscores.append(85)\nprint(scores[1])\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -2057,
+      "width": 545,
+      "height": 280
+    },
+    {
+      "id": "950654ff9f80ab8d",
+      "type": "text",
+      "text": "Dictionary\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1276,
+      "y": -1693,
+      "width": 197,
+      "height": 69
+    },
+    {
+      "id": "1ebe73fd99a82f58",
+      "type": "text",
+      "text": "Dictionaries don’t allow duplicate keys to exist. If you set a value for a key that already exists, Swift will overwrite whatever was the previous value.",
+      "styleAttributes": {
+        "textAlign": null,
+        "border": "dashed"
+      },
+      "x": -980,
+      "y": -1755,
+      "width": 356,
+      "height": 193,
+      "color": "5"
+    },
+    {
+      "id": "4eba148483a3ffdf",
+      "type": "text",
+      "text": "```Swift\nlet dictioanry = [\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"]\nprint(dictionary[\"key1\"]) // //Optional(\"value1\")\n```",
+      "styleAttributes": {},
+      "x": -435,
+      "y": -1755,
+      "width": 840,
+      "height": 104
+    },
+    {
+      "id": "e9ef1e4f4f774fc0",
+      "type": "text",
+      "text": "```Swift\nlet dictioanry = [\"key1\": \"value1\",\n                  \"key2\": \"value2\",\n                  \"key3\": \"value3\"]\n// Use default if the key doesn't exist\nprint(dictionary[\"key4\", default: \"Unknown\"]) \n```",
+      "styleAttributes": {},
+      "x": -435,
+      "y": -1624,
+      "width": 561,
+      "height": 180
+    },
+    {
+      "id": "31d144acc319f0f9",
+      "type": "text",
+      "text": "```Swift\ndictionary.count()\ndictionary.removeAll()\n```",
+      "styleAttributes": {},
+      "x": 483,
+      "y": -1578,
+      "width": 348,
+      "height": 89,
+      "color": "2"
+    },
+    {
+      "id": "e017fafbc746e35e",
+      "type": "text",
+      "text": "Set will automatically remove any duplicate values, and it won't remember the exact order.  \n\nEvery time it prints the set, it will be a random order.",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -980,
+      "y": -1422,
+      "width": 460,
+      "height": 201,
+      "color": "5"
+    },
+    {
+      "id": "7e7b0bde05f321ef",
+      "type": "text",
+      "text": "```Swift\nlet set1 = Set<String>([\"a\", \"b\", \"c\"])\n\nset1.insert(\"d\")\n```",
+      "styleAttributes": {},
+      "x": -435,
+      "y": -1393,
+      "width": 534,
+      "height": 143
+    },
+    {
+      "id": "0f351b4c8cc9b0d6",
+      "type": "text",
+      "text": "Set",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1234,
+      "y": -1359,
+      "width": 113,
+      "height": 75
+    },
+    {
+      "id": "ffc06d4cc6a227d6",
+      "type": "text",
+      "text": "```Swift\nset1.count\nset1.sorted() // return a sorted array\n```",
+      "styleAttributes": {},
+      "x": 154,
+      "y": -1371,
+      "width": 503,
+      "height": 100,
+      "color": "2"
+    },
+    {
+      "id": "84e46dd817628c1f",
+      "type": "text",
+      "text": "Enum: Enumeration\n",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1307,
+      "y": -1118,
+      "width": 260,
+      "height": 82
+    },
+    {
+      "id": "5d22f8d1f167751c",
+      "type": "text",
+      "text": "Enums are faster than strings",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -980,
+      "y": -1102,
+      "width": 320,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "631ad66c77461c55",
+      "type": "text",
+      "text": "```Swift\nenum Weekday {\n    case monday\n    case tuesday\n    case wednesday\n    case thursday\n    case friday\n}\n\nvar day = Weekday.monday\n```",
+      "styleAttributes": {},
+      "x": -435,
+      "y": -1215,
+      "width": 506,
+      "height": 327
+    },
+    {
+      "id": "6c606b6d9a065d88",
+      "type": "text",
+      "text": "```Swift\nenum Weekday {\n    case monday, tuesday, wednesday, thursday, friday\n}\n\nvar day = Weekday.monday\nday = .tuesday  // Enum name can be skipped after first assignment\n```",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": -435,
+      "y": -860,
+      "width": 757,
+      "height": 260
+    },
+    {
+      "id": "de485d09eb7b3d64",
+      "type": "text",
+      "text": "`String`, `Int`, `Double`, `Bool`\n`[String]`: array of strings\n`[String: String]`: dictionary of strings\n`Set<String>`: set of strings",
+      "styleAttributes": {},
+      "x": -1402,
+      "y": -344,
+      "width": 450,
+      "height": 156
+    },
+    {
+      "id": "df3c240ea7b70b43",
+      "type": "text",
+      "text": "Type Annotations\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1806,
+      "y": -291,
+      "width": 260,
+      "height": 50
+    },
+    {
+      "id": "8560aa052da3b1cb",
+      "type": "text",
+      "text": "```Swift\nlet username: String\n// lots of complex logic\nusername = \"@TheGooseGuy\"\n// lots more complex logic\nprint(username)\n```",
+      "styleAttributes": {},
+      "x": -684,
+      "y": -377,
+      "width": 367,
+      "height": 222
+    },
+    {
+      "id": "722e849d5c3cfca2",
+      "type": "text",
+      "text": "```Swift\nvar percentage: Double = 99\n```",
+      "styleAttributes": {},
+      "x": -684,
+      "y": -120,
+      "width": 385,
+      "height": 78
+    },
+    {
+      "id": "e41f698c088ce4ea",
+      "type": "text",
+      "text": "```Swift\n//Use type annotation when creating an empty array of strings\nvar teams: [String] = [String]()\n```",
+      "styleAttributes": {},
+      "x": -684,
+      "y": -560,
+      "width": 523,
+      "height": 145
+    },
+    {
+      "id": "74e2389a57b34a1f",
+      "type": "text",
+      "text": "if",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1241,
+      "y": 157,
+      "width": 128,
+      "height": 56
+    },
+    {
+      "id": "c7b449cd3dbe9d73",
+      "type": "text",
+      "text": "If, Switch, and the Ternary Operator\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1864,
+      "y": 432,
+      "width": 377,
+      "height": 71
+    },
+    {
+      "id": "9ec7fae25889c568",
+      "type": "text",
+      "text": "Switch🎮",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1260,
+      "y": 632,
+      "width": 166,
+      "height": 79
+    },
+    {
+      "id": "c91a2d2fafc72d6e",
+      "type": "text",
+      "text": "Ternary Conditional Operator",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1333,
+      "y": 953,
+      "width": 313,
+      "height": 59
+    },
+    {
+      "id": "714f0662aa21f74b",
+      "type": "text",
+      "text": "```Swift\nlet a = false\nlet b = true\n\nif a {\n    print(\"Code to run if a is true\")\n} else if b {\n    print(\"Code to run if a is false but b is true\")\n} else {\n    print(\"Code to run if both a and b are false\")\n}\n```",
+      "styleAttributes": {},
+      "x": -953,
+      "y": 192,
+      "width": 666,
+      "height": 340
+    },
+    {
+      "id": "e9b602d84ff8d45b",
+      "type": "text",
+      "text": "To combine conditions, use and `&&` or `||`",
+      "styleAttributes": {},
+      "x": -182,
+      "y": 40,
+      "width": 423,
+      "height": 71,
+      "color": "2"
+    },
+    {
+      "id": "5e5fb10cf4bf225f",
+      "type": "text",
+      "text": "Binary Operators: `+`, `-`, `==`",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -952,
+      "y": 841,
+      "width": 318,
+      "height": 56
+    },
+    {
+      "id": "36ee93515547f59b",
+      "type": "text",
+      "text": "```Swift\nlet age = 18\nlet canVote = age >= 18 ? \"Yes\" : \"No\"\n```",
+      "styleAttributes": {},
+      "x": -952,
+      "y": 1012,
+      "width": 526,
+      "height": 119,
+      "color": "2"
+    },
+    {
+      "id": "a65c66534a9dba47",
+      "type": "text",
+      "text": "```Swift\nswitch forecast {\ncase .sun:\n    print(\"It should be a nice day.\")\ncase .rain:\n    print(\"Pack an umbrella.\")\ncase .wind:\n    print(\"Wear something warm\")\ncase .snow:\n    print(\"School is cancelled.\")\ncase .unknown:\n    print(\"Our forecast generator is broken!\")\ndefault:\n    print(\"This will run if all case failed to match\")\n}\n```",
+      "styleAttributes": {},
+      "x": -397,
+      "y": 572,
+      "width": 682,
+      "height": 440
+    },
+    {
+      "id": "9944e427ce6179df",
+      "type": "text",
+      "text": "`Switch` statement has to be exhaustive",
+      "styleAttributes": {},
+      "x": -953,
+      "y": 644,
+      "width": 461,
+      "height": 55,
+      "color": "5"
+    },
+    {
+      "id": "0284611902d3b24b",
+      "type": "text",
+      "text": "```Swift\nif someCondition {\n    print(\"Do something\")\n}\n```",
+      "styleAttributes": {},
+      "x": -953,
+      "y": 0,
+      "width": 389,
+      "height": 150
+    },
+    {
+      "id": "3feacf5fbd746fd2",
+      "type": "text",
+      "text": "continue\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -917,
+      "y": 2013,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "7c0c2d9e9d696b87",
+      "type": "text",
+      "text": "skip the current iteraion",
+      "styleAttributes": {},
+      "x": -558,
+      "y": 2018,
+      "width": 267,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "d1b31d5240a4315b",
+      "type": "text",
+      "text": "break\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -917,
+      "y": 2133,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "54847502a6972cfa",
+      "type": "text",
+      "text": "immediately exit the loop",
+      "styleAttributes": {},
+      "x": -558,
+      "y": 2138,
+      "width": 285,
+      "height": 50,
+      "color": "5"
+    },
+    {
+      "id": "482cdc4d50599993",
+      "type": "text",
+      "text": "```Swift\nouterLoop: for i in 1...3 {\n    for j in 1...3 {\n        if j == 2 {\n            break outerLoop  // Exits the outer loop when j == 2\n        }\n        print(\"i: \\(i), j: \\(j)\")\n    }\n}\n// Notice that without this break label, the program will still run even we already get the result.\n```",
+      "styleAttributes": {},
+      "x": -948,
+      "y": 2249,
+      "width": 789,
+      "height": 348
+    },
+    {
+      "id": "ecef32c07af79667",
+      "type": "text",
+      "text": "for\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1289,
+      "y": 1348,
+      "width": 224,
+      "height": 50
+    },
+    {
+      "id": "cf068e95dba53e48",
+      "type": "text",
+      "text": "Loops\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1739,
+      "y": 1653,
+      "width": 143,
+      "height": 50
+    },
+    {
+      "id": "454d3a6bcbc23141",
+      "type": "text",
+      "text": "while\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1307,
+      "y": 1803,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "61b5dd0d2fcfa745",
+      "type": "text",
+      "text": "continue, break\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1305,
+      "y": 2083,
+      "width": 260,
+      "height": 50
+    },
+    {
+      "id": "aef62358ec1573d0",
+      "type": "text",
+      "text": "Labeled Statement\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1305,
+      "y": 2393,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b28551da585875f7",
+      "type": "text",
+      "text": "```Swift\nlet platforms = [\"iOS\", \"macOS\", \"tvOS\", \"watchOS\"]\n\nfor os in platforms {\nprint(\"Swift works great on \\(os).\")\n}\n```",
+      "styleAttributes": {},
+      "x": -951,
+      "y": 1198,
+      "width": 632,
+      "height": 200
+    },
+    {
+      "id": "9640757827043b15",
+      "type": "text",
+      "text": "```Swift\nfor _ in 1...12 {\n    print(\"5 x \\(_) is \\(5 * _)\")\n}\n// When the loop variable doesn't matter, use an underscore. (Make the code run faster)\n```",
+      "styleAttributes": {},
+      "x": -951,
+      "y": 1426,
+      "width": 481,
+      "height": 228
+    },
+    {
+      "id": "204807667d36acf1",
+      "type": "text",
+      "text": "```Swift\nfor i in 1...12 {\n    print(\"The \\(i) times table:\")\n    for j in 1...12 {\n        print(\"  \\(j) x \\(i) is \\(j * i)\")\n    }\n    print()\n}\n```",
+      "styleAttributes": {},
+      "x": -259,
+      "y": 1131,
+      "width": 443,
+      "height": 335
+    },
+    {
+      "id": "a1e055bf7f5d1fb0",
+      "type": "text",
+      "text": "`1...12`: 1 to 12 inclusive\n`1..<12`: not include 12\n1 to 5 means 1,2,3,4  \n1 through 5 means 1,2,3,4,5\n`1...`: from 1 to the end",
+      "styleAttributes": {},
+      "x": -392,
+      "y": 1504,
+      "width": 309,
+      "height": 199,
+      "color": "2"
+    },
+    {
+      "id": "95cfba24ed389321",
+      "type": "text",
+      "text": "```Swift\nvar countdown = 10\n\nwhile countdown > 0 {\n    print(\"\\(countdown)…\")\n    countdown -= 1\n}\n\nprint(\"Blast off!\")\n```",
+      "styleAttributes": {},
+      "x": -951,
+      "y": 1691,
+      "width": 391,
+      "height": 284
+    },
+    {
+      "id": "3c360e4dc57e2290",
+      "type": "text",
+      "text": "return 1 value",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -556,
+      "y": 3006,
+      "width": 260,
+      "height": 77
+    },
+    {
+      "id": "58c90ef0cb541800",
+      "type": "text",
+      "text": "return",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -957,
+      "y": 3120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "4adf09e65ae1f80c",
+      "type": "text",
+      "text": "return multiple values - tuple",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -577,
+      "y": 3218,
+      "width": 327,
+      "height": 82
+    },
+    {
+      "id": "ea045297f3a820ca",
+      "type": "text",
+      "text": "```Swift\n// for is external label, can be omitted with '_' underscore\n// number is internal label\nfunc printTimesTables(for number: Int) {\n    for i in 1...12 {\n        print(\"\\(i) x \\(number) is \\(i * number)\")\n    }\n}\n\nprintTimesTables(for: 5)\n```",
+      "styleAttributes": {},
+      "x": -827,
+      "y": 3569,
+      "width": 724,
+      "height": 304
+    },
+    {
+      "id": "ba0659331b08704d",
+      "type": "text",
+      "text": "Customize parameter label (for readability)",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1381,
+      "y": 3652,
+      "width": 417,
+      "height": 69
+    },
+    {
+      "id": "67c6fa28403c1874",
+      "type": "text",
+      "text": "```Swift\nfunc getUser() -> (String, String) {\n    (\"Blue\", \"Goose\")\n}\n\nlet user = getUser()\nprint(\"Name: \\(user.0) \\(user.1)\") // This use numerical indices\nlet firstName = user.firstName\nlet lastName = user.lastName\nprint(\"Name: \\(firstName) \\(lastName)\")\n```",
+      "styleAttributes": {},
+      "x": -77,
+      "y": 3373,
+      "width": 813,
+      "height": 313
+    },
+    {
+      "id": "8914afed6f013c66",
+      "type": "text",
+      "text": "```Swift\nfunc pythagoras(a: Double, b: Double) -> Double {\n    let input = a * a + b * b\n    let root = sqrt(input)\n    return root\n}\n\nlet c = pythagoras(a: 3, b: 4)\nprint(c)\n```",
+      "styleAttributes": {},
+      "x": -14,
+      "y": 3024,
+      "width": 561,
+      "height": 312
+    },
+    {
+      "id": "fdc0cb1ab5f65ec8",
+      "type": "text",
+      "text": "```Swift\nfunc function_name() -> TypeAnnotation {\n    return \"something\"\n}\n```",
+      "styleAttributes": {},
+      "x": -14,
+      "y": 2862,
+      "width": 523,
+      "height": 128
+    },
+    {
+      "id": "87e74331210cfab5",
+      "type": "text",
+      "text": "When to use array, set or tuple:\n**Array**: an ordered collection of elements with possible duplicates, index\n**Set**: a collection of unique items, order does not matter, fast lookups\n**Tuple**: group a small, fixed number of values, potentially of different types, for temporary purpose.",
+      "styleAttributes": {},
+      "x": -184,
+      "y": 2640,
+      "width": 920,
+      "height": 146,
+      "color": "4"
+    },
+    {
+      "id": "1eb305606297032d",
+      "type": "text",
+      "text": "Functions, Parameters, and Return Values\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null
+      },
+      "x": -1886,
+      "y": 2998,
+      "width": 441,
+      "height": 77
+    },
+    {
+      "id": "d0913c227a8118a8",
+      "type": "text",
+      "text": "function\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1305,
+      "y": 3007,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b796b32317b63594",
+      "type": "text",
+      "text": "```Swift\n// Define a function\nfunc function_name(parameters: TypeAnnotation) {\n    \"function body\"\n}\n\n// Call a function\nfunction_name(parameters: TypeAnnotation)\n```",
+      "styleAttributes": {},
+      "x": -946,
+      "y": 2640,
+      "width": 582,
+      "height": 286
+    },
+    {
+      "id": "08e1a7b664686cec",
+      "type": "text",
+      "text": "```Swift\nlet string = \"12345\"\n\ndo {\n    let result = try checkPassword(string)\n    print(\"Password rating: \\(result)\")\n} catch PasswordError.short {\n    print(\"Please use a longer password.\")\n} catch PasswordError.obvious {\n    print(\"I have the same combination on my luggage!\")\n} catch {\n    print(\"There was an error.\")\n}\n```",
+      "styleAttributes": {},
+      "x": -21,
+      "y": 4249,
+      "width": 680,
+      "height": 384
+    },
+    {
+      "id": "53cb75f3aa19f81d",
+      "type": "text",
+      "text": "```Swift\nenum PasswordError: Error {\n    case short, obvious\n}\n\nfunc checkPassword(_ password: String) throws -> String {\n    if password.count < 5 {\n        throw PasswordError.short\n    }\n\n    if password == \"12345\" {\n        throw PasswordError.obvious\n    }\n\n    if password.count < 8 {\n        return \"OK\"\n    } else if password.count < 10 {\n        return \"Good\"\n    } else {\n        return \"Excellent\"\n    }\n}\n```",
+      "styleAttributes": {},
+      "x": -838,
+      "y": 4441,
+      "width": 690,
+      "height": 631
+    },
+    {
+      "id": "d7ff4ae180f4e07a",
+      "type": "text",
+      "text": "Default Value",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1302,
+      "y": 4170,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "bb5a380f075d1a4f",
+      "type": "text",
+      "text": "Default Values, Throwing Functions",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1850,
+      "y": 4200,
+      "width": 348,
+      "height": 64
+    },
+    {
+      "id": "d8c1f35494ad1c87",
+      "type": "text",
+      "text": "Handle error in function",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1302,
+      "y": 4270,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1086f87696977d00",
+      "type": "text",
+      "text": "```Swift\nfunc printTimesTables(for number: Int, end: Int = 12)  // default value for `end`\n    for i in 1...end {\n        print(\"\\(i) x \\(number) is \\(i * number)\")\n    }\n}\n\nprintTimesTables(for: 5, end: 20)\nprintTimesTables(for: 8)\n```",
+      "styleAttributes": {},
+      "x": -827,
+      "y": 3920,
+      "width": 1013,
+      "height": 280
+    },
+    {
+      "id": "5892b21b35e7440c",
+      "type": "text",
+      "text": "```Swift\ndo {\n    try someRiskyWork()\n} catch {\n    print(\"Handle errors here\")\n}\n```",
+      "styleAttributes": {},
+      "x": -827,
+      "y": 4230,
+      "width": 421,
+      "height": 183
+    },
+    {
+      "id": "2a3fdf8cd83e185f",
+      "type": "text",
+      "text": "1. Closures don't need a name\n2. Capture constants and variables from surrounding scope\n3. Can be assigned and passed as variables",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -1409,
+      "y": 5310,
+      "width": 463,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "59655d8ed377735e",
+      "type": "text",
+      "text": "Closures",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1742,
+      "y": 5365,
+      "width": 130,
+      "height": 50
+    },
+    {
+      "id": "adf59ef8fec6edae",
+      "type": "text",
+      "text": "```swift\nlet team = [\"Gloria\", \"Suzanne\", \"Piper\", \"Tiffany\", \"Tasha\"]\n\nlet captainFirstTeam = team.sorted(by: { (name1: String, name2: String) -> Bool in\n    if name1 == \"Suzanne\" {\n        return true\n    } else if name2 == \"Suzanne\" {\n        return false\n    }\n\n    return name1 < name2\n})\n\nprint(captainFirstTeam)\n```",
+      "styleAttributes": {},
+      "x": -1409,
+      "y": 5525,
+      "width": 967,
+      "height": 420
+    },
+    {
+      "id": "436d0c1e488de34a",
+      "type": "text",
+      "text": "```Swift\nfunc makeIncrementer(incrementAmount: Int) -> () -> Int {\n    var total = 0\n    \n    let incrementer: () -> Int = {\n        total += incrementAmount\n        return total\n    }\n    \n    return incrementer\n}\n\nlet incrementByFive = makeIncrementer(incrementAmount: 5)\n\nprint(incrementByFive())  // Output: 5\nprint(incrementByFive())  // Output: 10\n```",
+      "styleAttributes": {},
+      "x": -269,
+      "y": 5525,
+      "width": 697,
+      "height": 474
+    },
+    {
+      "id": "da0c944221e14f19",
+      "type": "text",
+      "text": "```swift\nlet captainFirstTeam = team.sorted { name1, name2 in\n    if name1 == \"Suzanne\" {\n        return true\n    } else if name2 == \"Suzanne\" {\n        return false\n    }\n\n    return name1 < name2\n}\n```",
+      "styleAttributes": {},
+      "x": -869,
+      "y": 6063,
+      "width": 660,
+      "height": 318
+    },
+    {
+      "id": "a6e9f95a5d9879ea",
+      "type": "text",
+      "text": "Trailing Closures",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1303,
+      "y": 6185,
+      "width": 260,
+      "height": 74
+    },
+    {
+      "id": "0a091c7c94ac0f04",
+      "type": "text",
+      "text": "```swift\nlet captainFirstTeam = team.sorted {\n    if $0 == \"Suzanne\" {\n        return true\n    } else if $1 == \"Suzanne\" {\n        return false\n    }\n\n    return $0 < $1\n}\n```",
+      "styleAttributes": {},
+      "x": -371,
+      "y": 6416,
+      "width": 451,
+      "height": 347
+    },
+    {
+      "id": "d390c013fb5fc4c3",
+      "type": "text",
+      "text": "Simplified Closure:\n1. Infer Types: Swift can infer parameter types\n2. Implicit Return: If the closure only contains one expression, you can omit the `return` keyword\n3. Automatic Shorthand Argument Names: `$0`, `$1`, ...",
+      "styleAttributes": {},
+      "x": -869,
+      "y": 6421,
+      "width": 374,
+      "height": 336,
+      "color": "5"
+    },
+    {
+      "id": "9a08797594e86e6a",
+      "type": "text",
+      "text": "Shorthand Syntax",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1307,
+      "y": 6559,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "cc4c8eb743a05369",
+      "type": "text",
+      "text": "Functions as parameters",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1315,
+      "y": 6951,
+      "width": 285,
+      "height": 60
+    },
+    {
+      "id": "556e6a8fe50bcd33",
+      "type": "text",
+      "text": "```swift\ndoImportantWork {\n    print(\"This is the first work\")\n} second: {\n    print(\"This is the second work\")\n} third: {\n    print(\"This is the third work\")\n}\n```",
+      "styleAttributes": {},
+      "x": -145,
+      "y": 7245,
+      "width": 471,
+      "height": 260
+    },
+    {
+      "id": "16d9d37b93476cad",
+      "type": "text",
+      "text": "```Swift\nfunc performOperation(on a: Int, using operation: (Int, Int) -> Int) {\n    let result = operation(a, 10)\n    print(\"Result is \\(result)\")\n}\n\nlet multiply = { (x: Int, y: Int) -> Int in\n    return x * y\n}\n\nperformOperation(on: 5, using: multiply)  // Output: Result is 50\n```\n",
+      "styleAttributes": {},
+      "x": -269,
+      "y": 5120,
+      "width": 566,
+      "height": 380
+    },
+    {
+      "id": "853177824732bff2",
+      "type": "text",
+      "text": "```Swift\n{ (parameters) -> returnType in\n    // code body\n}\n```",
+      "styleAttributes": {},
+      "x": -839,
+      "y": 5323,
+      "width": 411,
+      "height": 135
+    },
+    {
+      "id": "92f910b9c449db9c",
+      "type": "text",
+      "text": "```swift\nfunc makeArray(size: Int, using generator: () -> Int) -> [Int] {\n    var numbers = [Int]() // Empty array of integers\n\n    for _ in 0..<size {\n        let newNumber = generator()\n        numbers.append(newNumber)\n    }\n\n    return numbers\n}\n```",
+      "styleAttributes": {},
+      "x": -869,
+      "y": 6805,
+      "width": 776,
+      "height": 352
+    },
+    {
+      "id": "ccac1b878039a354",
+      "type": "text",
+      "text": "Simple Data Types",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2560,
+      "y": -3013,
+      "width": 280,
+      "height": 85
+    },
+    {
+      "id": "66d874eb84d5e48c",
+      "type": "text",
+      "text": "Complex Data Types",
+      "styleAttributes": {
+        "shape": "predefined-process",
+        "textAlign": "center"
+      },
+      "x": -2540,
+      "y": -860,
+      "width": 240,
+      "height": 90
+    },
+    {
+      "id": "60292ad66e9c2f89",
+      "type": "text",
+      "text": "Conditions",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2550,
+      "y": 420,
+      "width": 260,
+      "height": 95
+    },
+    {
+      "id": "40dad80dc9b99106",
+      "type": "text",
+      "text": "Loops",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2550,
+      "y": 1635,
+      "width": 260,
+      "height": 87
+    },
+    {
+      "id": "95896bf7be026f9f",
+      "type": "text",
+      "text": "Functions",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2550,
+      "y": 4167,
+      "width": 260,
+      "height": 127
+    },
+    {
+      "id": "ea4eb97afc92696a",
+      "type": "text",
+      "text": "Swift Basics",
+      "styleAttributes": {
+        "border": null,
+        "shape": "database",
+        "textAlign": "center"
+      },
+      "x": -3020,
+      "y": -3005,
+      "width": 260,
+      "height": 70
+    },
+    {
+      "id": "3c60847f3ec68dec",
+      "type": "text",
+      "text": "```swift\nfunc doImportantWork(first: () -> Void, second: () -> Void, third: () -> Void) {\n    print(\"About to start first work\")\n    first()\n    print(\"About to start second work\")\n    second()\n    print(\"About to start third work\")\n    third()\n    print(\"Done!\")\n}\n```",
+      "styleAttributes": {},
+      "x": -869,
+      "y": 7205,
+      "width": 644,
+      "height": 340
+    }
+  ],
+  "edges": [
+    {
+      "id": "c6b718d5ff4d39b3",
+      "fromNode": "141ed29ad8c9e822",
+      "fromSide": "right",
+      "toNode": "5ec40c719b299d70",
+      "toSide": "left"
+    },
+    {
+      "id": "2533be445495ebab",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "141ed29ad8c9e822",
+      "toSide": "left"
+    },
+    {
+      "id": "9763ae0abcd2b616",
+      "styleAttributes": {},
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "7372042644a8a9c0",
+      "toSide": "left"
+    },
+    {
+      "id": "2947e2d2ecf86c41",
+      "styleAttributes": {},
+      "fromNode": "7372042644a8a9c0",
+      "fromSide": "right",
+      "toNode": "d42ddf14281aef8f",
+      "toSide": "left"
+    },
+    {
+      "id": "30037db56ba510a5",
+      "styleAttributes": {},
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "85250fdfe43ed595",
+      "toSide": "left"
+    },
+    {
+      "id": "88e36433802d9ea6",
+      "styleAttributes": {},
+      "fromNode": "85250fdfe43ed595",
+      "fromSide": "right",
+      "toNode": "607a1de2c02dc6b4",
+      "toSide": "left"
+    },
+    {
+      "id": "d280adfb1b2cb34b",
+      "styleAttributes": {},
+      "fromNode": "607a1de2c02dc6b4",
+      "fromSide": "right",
+      "toNode": "7252188e30520125",
+      "toSide": "left"
+    },
+    {
+      "id": "2a4b6a01a6bdd15d",
+      "styleAttributes": {},
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "9bdf8df4eb1392c1",
+      "toSide": "left"
+    },
+    {
+      "id": "c40f3ecd3d36fff1",
+      "styleAttributes": {},
+      "fromNode": "9bdf8df4eb1392c1",
+      "fromSide": "right",
+      "toNode": "5394682ce3d536fc",
+      "toSide": "left"
+    },
+    {
+      "id": "20334729e4805396",
+      "styleAttributes": {},
+      "fromNode": "9bdf8df4eb1392c1",
+      "fromSide": "right",
+      "toNode": "3292ca5cf8c2a87a",
+      "toSide": "left"
+    },
+    {
+      "id": "9568e70252d172e1",
+      "styleAttributes": {},
+      "fromNode": "5394682ce3d536fc",
+      "fromSide": "right",
+      "toNode": "178d1b8de82b1462",
+      "toSide": "left"
+    },
+    {
+      "id": "4c8b44a988a2e325",
+      "styleAttributes": {},
+      "fromNode": "178d1b8de82b1462",
+      "fromSide": "right",
+      "toNode": "56b071f398878bf4",
+      "toSide": "left"
+    },
+    {
+      "id": "f6784775efc81093",
+      "styleAttributes": {},
+      "fromNode": "178d1b8de82b1462",
+      "fromSide": "right",
+      "toNode": "84a424f3165f2681",
+      "toSide": "left"
+    },
+    {
+      "id": "67afb43764c98d7d",
+      "styleAttributes": {},
+      "fromNode": "3292ca5cf8c2a87a",
+      "fromSide": "right",
+      "toNode": "5aa162f656968727",
+      "toSide": "left"
+    },
+    {
+      "id": "76a1a063f13668d7",
+      "styleAttributes": {},
+      "fromNode": "5aa162f656968727",
+      "fromSide": "right",
+      "toNode": "731a4a8a78023bb1",
+      "toSide": "left"
+    },
+    {
+      "id": "d6889616fdc7afe8",
+      "styleAttributes": {
+        "path": "long-dashed",
+        "pathfindingMethod": "a-star",
+        "arrow": null
+      },
+      "fromNode": "85250fdfe43ed595",
+      "fromSide": "top",
+      "toNode": "f90f19fbf1fdf335",
+      "toSide": "left"
+    },
+    {
+      "id": "2836732589d0306a",
+      "styleAttributes": {
+        "path": "long-dashed",
+        "pathfindingMethod": "a-star",
+        "arrow": null
+      },
+      "fromNode": "5394682ce3d536fc",
+      "fromSide": "top",
+      "toNode": "f90f19fbf1fdf335",
+      "toSide": "left"
+    },
+    {
+      "id": "33015bbfb17a91ac",
+      "styleAttributes": {
+        "pathfindingMethod": "a-star",
+        "path": "long-dashed",
+        "arrow": null
+      },
+      "fromNode": "5ec40c719b299d70",
+      "fromSide": "right",
+      "toNode": "f90f19fbf1fdf335",
+      "toSide": "left"
+    },
+    {
+      "id": "53fd2a7d42e7cf6f",
+      "styleAttributes": {},
+      "fromNode": "e1600dcea992d1b9",
+      "fromSide": "right",
+      "toNode": "1ff32adfb4e01fb3",
+      "toSide": "left"
+    },
+    {
+      "id": "1d686b34bd73bba5",
+      "styleAttributes": {},
+      "fromNode": "1ff32adfb4e01fb3",
+      "fromSide": "right",
+      "toNode": "df49d10fac55fa5f",
+      "toSide": "left"
+    },
+    {
+      "id": "11b95180d534cc4b",
+      "styleAttributes": {},
+      "fromNode": "1ff32adfb4e01fb3",
+      "fromSide": "right",
+      "toNode": "8da4af6ce6017424",
+      "toSide": "left"
+    },
+    {
+      "id": "7c179e7790fe531a",
+      "styleAttributes": {},
+      "fromNode": "e1600dcea992d1b9",
+      "fromSide": "right",
+      "toNode": "88300b7da8efe786",
+      "toSide": "left"
+    },
+    {
+      "id": "ed408cd88e2588d5",
+      "styleAttributes": {
+        "pathfindingMethod": null,
+        "path": "dotted"
+      },
+      "fromNode": "88300b7da8efe786",
+      "fromSide": "right",
+      "toNode": "0c0b5aac5e2884d1",
+      "toSide": "left"
+    },
+    {
+      "id": "8f2ea120a90691b8",
+      "styleAttributes": {
+        "pathfindingMethod": null,
+        "path": null
+      },
+      "fromNode": "88300b7da8efe786",
+      "fromSide": "right",
+      "toNode": "172068f98f7bca62",
+      "toSide": "left"
+    },
+    {
+      "id": "0c32a685e998027c",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "0c0b5aac5e2884d1",
+      "fromSide": "right",
+      "toNode": "172068f98f7bca62",
+      "toSide": "left"
+    },
+    {
+      "id": "aba82a65126924a5",
+      "styleAttributes": {},
+      "fromNode": "cdbd019412bb5c3d",
+      "fromSide": "right",
+      "toNode": "1a411790782d160d",
+      "toSide": "left"
+    },
+    {
+      "id": "39567eabd3e982aa",
+      "styleAttributes": {},
+      "fromNode": "1a411790782d160d",
+      "fromSide": "right",
+      "toNode": "a6ed2b18986d834b",
+      "toSide": "left"
+    },
+    {
+      "id": "91583fd1f916ad73",
+      "styleAttributes": {},
+      "fromNode": "1a411790782d160d",
+      "fromSide": "right",
+      "toNode": "05620bd6ddd7b280",
+      "toSide": "left"
+    },
+    {
+      "id": "9cf0c8e6d1d3c874",
+      "styleAttributes": {},
+      "fromNode": "a6ed2b18986d834b",
+      "fromSide": "right",
+      "toNode": "33d459e6af9225a8",
+      "toSide": "left"
+    },
+    {
+      "id": "97f9bb45acb5d32b",
+      "styleAttributes": {},
+      "fromNode": "cdbd019412bb5c3d",
+      "fromSide": "right",
+      "toNode": "950654ff9f80ab8d",
+      "toSide": "left"
+    },
+    {
+      "id": "b7b3c307fe775122",
+      "styleAttributes": {},
+      "fromNode": "4eba148483a3ffdf",
+      "fromSide": "right",
+      "toNode": "31d144acc319f0f9",
+      "toSide": "left"
+    },
+    {
+      "id": "2429bad621023a2f",
+      "styleAttributes": {},
+      "fromNode": "e9ef1e4f4f774fc0",
+      "fromSide": "right",
+      "toNode": "31d144acc319f0f9",
+      "toSide": "left"
+    },
+    {
+      "id": "efa4ab530c5a77ce",
+      "styleAttributes": {},
+      "fromNode": "cdbd019412bb5c3d",
+      "fromSide": "right",
+      "toNode": "0f351b4c8cc9b0d6",
+      "toSide": "left"
+    },
+    {
+      "id": "664d5e11fdd64601",
+      "styleAttributes": {},
+      "fromNode": "1ebe73fd99a82f58",
+      "fromSide": "right",
+      "toNode": "4eba148483a3ffdf",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "28363a8baa57519a",
+      "styleAttributes": {},
+      "fromNode": "1ebe73fd99a82f58",
+      "fromSide": "right",
+      "toNode": "e9ef1e4f4f774fc0",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "9d0f4610ee6c2332",
+      "styleAttributes": {},
+      "fromNode": "950654ff9f80ab8d",
+      "fromSide": "right",
+      "toNode": "1ebe73fd99a82f58",
+      "toSide": "left"
+    },
+    {
+      "id": "4c2ffbadcca1d207",
+      "styleAttributes": {},
+      "fromNode": "0f351b4c8cc9b0d6",
+      "fromSide": "right",
+      "toNode": "e017fafbc746e35e",
+      "toSide": "left"
+    },
+    {
+      "id": "413182ea860515a8",
+      "styleAttributes": {},
+      "fromNode": "e017fafbc746e35e",
+      "fromSide": "right",
+      "toNode": "7e7b0bde05f321ef",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "5cdbe15ef8a01b2b",
+      "styleAttributes": {},
+      "fromNode": "7e7b0bde05f321ef",
+      "fromSide": "right",
+      "toNode": "ffc06d4cc6a227d6",
+      "toSide": "left"
+    },
+    {
+      "id": "4192201b657133e5",
+      "styleAttributes": {},
+      "fromNode": "cdbd019412bb5c3d",
+      "fromSide": "right",
+      "toNode": "84e46dd817628c1f",
+      "toSide": "left"
+    },
+    {
+      "id": "58fb27633c241409",
+      "styleAttributes": {},
+      "fromNode": "84e46dd817628c1f",
+      "fromSide": "right",
+      "toNode": "5d22f8d1f167751c",
+      "toSide": "left"
+    },
+    {
+      "id": "d0f1fa923ae82f2f",
+      "styleAttributes": {},
+      "fromNode": "5d22f8d1f167751c",
+      "fromSide": "right",
+      "toNode": "631ad66c77461c55",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "9f83a5c4d6493eca",
+      "styleAttributes": {},
+      "fromNode": "5d22f8d1f167751c",
+      "fromSide": "right",
+      "toNode": "6c606b6d9a065d88",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "35f32a0a52bea705",
+      "styleAttributes": {},
+      "fromNode": "05620bd6ddd7b280",
+      "fromSide": "right",
+      "toNode": "33d459e6af9225a8",
+      "toSide": "left"
+    },
+    {
+      "id": "f730792c14ecb21b",
+      "styleAttributes": {},
+      "fromNode": "6b90af6d0570153e",
+      "fromSide": "right",
+      "toNode": "7252188e30520125",
+      "toSide": "left"
+    },
+    {
+      "id": "167296ebee3d56ba",
+      "styleAttributes": {},
+      "fromNode": "85250fdfe43ed595",
+      "fromSide": "right",
+      "toNode": "6b90af6d0570153e",
+      "toSide": "left"
+    },
+    {
+      "id": "9ceb5b7f185f8d9f",
+      "styleAttributes": {},
+      "fromNode": "df3c240ea7b70b43",
+      "fromSide": "right",
+      "toNode": "de485d09eb7b3d64",
+      "toSide": "left"
+    },
+    {
+      "id": "d67bfcacc5ec636d",
+      "styleAttributes": {},
+      "fromNode": "de485d09eb7b3d64",
+      "fromSide": "right",
+      "toNode": "e41f698c088ce4ea",
+      "toSide": "left"
+    },
+    {
+      "id": "37b2e8209c48f75b",
+      "styleAttributes": {},
+      "fromNode": "de485d09eb7b3d64",
+      "fromSide": "right",
+      "toNode": "8560aa052da3b1cb",
+      "toSide": "left"
+    },
+    {
+      "id": "52b17b9f9bd22ebc",
+      "styleAttributes": {},
+      "fromNode": "de485d09eb7b3d64",
+      "fromSide": "right",
+      "toNode": "722e849d5c3cfca2",
+      "toSide": "left"
+    },
+    {
+      "id": "3aaf1e9375c8ec9a",
+      "styleAttributes": {},
+      "fromNode": "c7b449cd3dbe9d73",
+      "fromSide": "right",
+      "toNode": "74e2389a57b34a1f",
+      "toSide": "left"
+    },
+    {
+      "id": "10326f40866f86e1",
+      "styleAttributes": {},
+      "fromNode": "74e2389a57b34a1f",
+      "fromSide": "right",
+      "toNode": "0284611902d3b24b",
+      "toSide": "left"
+    },
+    {
+      "id": "ee30cd95b7ac120a",
+      "styleAttributes": {},
+      "fromNode": "74e2389a57b34a1f",
+      "fromSide": "right",
+      "toNode": "714f0662aa21f74b",
+      "toSide": "left"
+    },
+    {
+      "id": "d514c5cd10ec088c",
+      "styleAttributes": {},
+      "fromNode": "714f0662aa21f74b",
+      "fromSide": "right",
+      "toNode": "e9b602d84ff8d45b",
+      "toSide": "left"
+    },
+    {
+      "id": "1fb61a34f1d1b8b2",
+      "styleAttributes": {},
+      "fromNode": "c7b449cd3dbe9d73",
+      "fromSide": "right",
+      "toNode": "9ec7fae25889c568",
+      "toSide": "left"
+    },
+    {
+      "id": "620dc3a5d0380f07",
+      "styleAttributes": {},
+      "fromNode": "9ec7fae25889c568",
+      "fromSide": "right",
+      "toNode": "9944e427ce6179df",
+      "toSide": "left"
+    },
+    {
+      "id": "0dacdb549754eaef",
+      "styleAttributes": {},
+      "fromNode": "9944e427ce6179df",
+      "fromSide": "right",
+      "toNode": "a65c66534a9dba47",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "c31f08b5f88c50f0",
+      "styleAttributes": {},
+      "fromNode": "c7b449cd3dbe9d73",
+      "fromSide": "right",
+      "toNode": "c91a2d2fafc72d6e",
+      "toSide": "left"
+    },
+    {
+      "id": "64803af5e451b5c7",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "c91a2d2fafc72d6e",
+      "fromSide": "right",
+      "toNode": "5e5fb10cf4bf225f",
+      "toSide": "left"
+    },
+    {
+      "id": "f752ef7c77b25707",
+      "styleAttributes": {},
+      "fromNode": "c91a2d2fafc72d6e",
+      "fromSide": "right",
+      "toNode": "36ee93515547f59b",
+      "toSide": "left"
+    },
+    {
+      "id": "3ff5a3447c7d7f27",
+      "styleAttributes": {},
+      "fromNode": "0284611902d3b24b",
+      "fromSide": "right",
+      "toNode": "e9b602d84ff8d45b",
+      "toSide": "left"
+    },
+    {
+      "id": "49f14107823c7078",
+      "styleAttributes": {},
+      "fromNode": "cf068e95dba53e48",
+      "fromSide": "right",
+      "toNode": "ecef32c07af79667",
+      "toSide": "left"
+    },
+    {
+      "id": "fc189fc5bedf116e",
+      "styleAttributes": {},
+      "fromNode": "ecef32c07af79667",
+      "fromSide": "right",
+      "toNode": "b28551da585875f7",
+      "toSide": "left"
+    },
+    {
+      "id": "a9e276285cec2607",
+      "styleAttributes": {},
+      "fromNode": "ecef32c07af79667",
+      "fromSide": "right",
+      "toNode": "9640757827043b15",
+      "toSide": "left"
+    },
+    {
+      "id": "2c7308adfad4b48d",
+      "styleAttributes": {},
+      "fromNode": "9640757827043b15",
+      "fromSide": "right",
+      "toNode": "a1e055bf7f5d1fb0",
+      "toSide": "left"
+    },
+    {
+      "id": "50ffa9d7d609517a",
+      "styleAttributes": {},
+      "fromNode": "b28551da585875f7",
+      "fromSide": "right",
+      "toNode": "204807667d36acf1",
+      "toSide": "left"
+    },
+    {
+      "id": "819c9a92c8d63995",
+      "styleAttributes": {},
+      "fromNode": "cf068e95dba53e48",
+      "fromSide": "right",
+      "toNode": "454d3a6bcbc23141",
+      "toSide": "left"
+    },
+    {
+      "id": "b88e583bbddb26ec",
+      "styleAttributes": {},
+      "fromNode": "454d3a6bcbc23141",
+      "fromSide": "right",
+      "toNode": "95cfba24ed389321",
+      "toSide": "left"
+    },
+    {
+      "id": "547f8a3ffbeb4926",
+      "styleAttributes": {},
+      "fromNode": "cf068e95dba53e48",
+      "fromSide": "right",
+      "toNode": "61b5dd0d2fcfa745",
+      "toSide": "left"
+    },
+    {
+      "id": "19626024cd2d9f9e",
+      "styleAttributes": {},
+      "fromNode": "61b5dd0d2fcfa745",
+      "fromSide": "right",
+      "toNode": "3feacf5fbd746fd2",
+      "toSide": "left"
+    },
+    {
+      "id": "370ed82df2283983",
+      "styleAttributes": {},
+      "fromNode": "61b5dd0d2fcfa745",
+      "fromSide": "right",
+      "toNode": "d1b31d5240a4315b",
+      "toSide": "left"
+    },
+    {
+      "id": "8917e869b43c835e",
+      "styleAttributes": {},
+      "fromNode": "3feacf5fbd746fd2",
+      "fromSide": "right",
+      "toNode": "7c0c2d9e9d696b87",
+      "toSide": "left"
+    },
+    {
+      "id": "930f345a4e514ed2",
+      "styleAttributes": {},
+      "fromNode": "d1b31d5240a4315b",
+      "fromSide": "right",
+      "toNode": "54847502a6972cfa",
+      "toSide": "left"
+    },
+    {
+      "id": "297ddd03727c7365",
+      "styleAttributes": {},
+      "fromNode": "cf068e95dba53e48",
+      "fromSide": "right",
+      "toNode": "aef62358ec1573d0",
+      "toSide": "left"
+    },
+    {
+      "id": "5d281b198e69bfcb",
+      "styleAttributes": {},
+      "fromNode": "aef62358ec1573d0",
+      "fromSide": "right",
+      "toNode": "482cdc4d50599993",
+      "toSide": "left"
+    },
+    {
+      "id": "160de29923777c49",
+      "styleAttributes": {},
+      "fromNode": "1eb305606297032d",
+      "fromSide": "right",
+      "toNode": "d0913c227a8118a8",
+      "toSide": "left"
+    },
+    {
+      "id": "1014bec27e8c2cea",
+      "styleAttributes": {},
+      "fromNode": "d0913c227a8118a8",
+      "fromSide": "right",
+      "toNode": "b796b32317b63594",
+      "toSide": "left"
+    },
+    {
+      "id": "0c10660f54623b90",
+      "styleAttributes": {},
+      "fromNode": "d0913c227a8118a8",
+      "fromSide": "right",
+      "toNode": "58c90ef0cb541800",
+      "toSide": "left"
+    },
+    {
+      "id": "a5ec4758a3818786",
+      "styleAttributes": {},
+      "fromNode": "58c90ef0cb541800",
+      "fromSide": "right",
+      "toNode": "3c360e4dc57e2290",
+      "toSide": "left"
+    },
+    {
+      "id": "138c15ba72f0ad86",
+      "styleAttributes": {},
+      "fromNode": "3c360e4dc57e2290",
+      "fromSide": "right",
+      "toNode": "fdc0cb1ab5f65ec8",
+      "toSide": "left"
+    },
+    {
+      "id": "b6ef02e582e03002",
+      "styleAttributes": {},
+      "fromNode": "3c360e4dc57e2290",
+      "fromSide": "right",
+      "toNode": "8914afed6f013c66",
+      "toSide": "left"
+    },
+    {
+      "id": "dc9d9293f88b3d9d",
+      "styleAttributes": {},
+      "fromNode": "58c90ef0cb541800",
+      "fromSide": "right",
+      "toNode": "4adf09e65ae1f80c",
+      "toSide": "left"
+    },
+    {
+      "id": "fdcd6d0f62943a89",
+      "styleAttributes": {},
+      "fromNode": "4adf09e65ae1f80c",
+      "fromSide": "right",
+      "toNode": "67c6fa28403c1874",
+      "toSide": "left"
+    },
+    {
+      "id": "102c0391e7aa3a8c",
+      "styleAttributes": {
+        "path": "dotted",
+        "pathfindingMethod": "a-star"
+      },
+      "fromNode": "cdbd019412bb5c3d",
+      "fromSide": "right",
+      "toNode": "87e74331210cfab5",
+      "toSide": "left"
+    },
+    {
+      "id": "5694cf4506bd5438",
+      "styleAttributes": {
+        "path": "dotted",
+        "arrow": null,
+        "pathfindingMethod": "a-star"
+      },
+      "fromNode": "4adf09e65ae1f80c",
+      "fromSide": "right",
+      "toNode": "87e74331210cfab5",
+      "toSide": "left"
+    },
+    {
+      "id": "9ec4e4a4b650cad5",
+      "styleAttributes": {},
+      "fromNode": "ba0659331b08704d",
+      "fromSide": "right",
+      "toNode": "ea045297f3a820ca",
+      "toSide": "left"
+    },
+    {
+      "id": "78a8c009b07a6437",
+      "styleAttributes": {},
+      "fromNode": "d0913c227a8118a8",
+      "fromSide": "bottom",
+      "toNode": "ba0659331b08704d",
+      "toSide": "top"
+    },
+    {
+      "id": "df03a4cc22b7ceda",
+      "styleAttributes": {},
+      "fromNode": "bb5a380f075d1a4f",
+      "fromSide": "right",
+      "toNode": "d7ff4ae180f4e07a",
+      "toSide": "left"
+    },
+    {
+      "id": "d14436c29254ad1a",
+      "styleAttributes": {},
+      "fromNode": "d7ff4ae180f4e07a",
+      "fromSide": "right",
+      "toNode": "1086f87696977d00",
+      "toSide": "left"
+    },
+    {
+      "id": "e1533b8ec71310a0",
+      "styleAttributes": {},
+      "fromNode": "bb5a380f075d1a4f",
+      "fromSide": "right",
+      "toNode": "d8c1f35494ad1c87",
+      "toSide": "left"
+    },
+    {
+      "id": "565920872cfbc505",
+      "styleAttributes": {},
+      "fromNode": "d8c1f35494ad1c87",
+      "fromSide": "right",
+      "toNode": "5892b21b35e7440c",
+      "toSide": "left"
+    },
+    {
+      "id": "b97fe42c1f0491de",
+      "styleAttributes": {},
+      "fromNode": "d8c1f35494ad1c87",
+      "fromSide": "right",
+      "toNode": "53cb75f3aa19f81d",
+      "toSide": "left"
+    },
+    {
+      "id": "4e95ff12846abf72",
+      "styleAttributes": {},
+      "fromNode": "5892b21b35e7440c",
+      "fromSide": "right",
+      "toNode": "08e1a7b664686cec",
+      "toSide": "left"
+    },
+    {
+      "id": "a4ac7e9b0e78a0a9",
+      "styleAttributes": {},
+      "fromNode": "53cb75f3aa19f81d",
+      "fromSide": "right",
+      "toNode": "08e1a7b664686cec",
+      "toSide": "left"
+    },
+    {
+      "id": "c8aa70624b11a118",
+      "styleAttributes": {},
+      "fromNode": "59655d8ed377735e",
+      "fromSide": "right",
+      "toNode": "2a3fdf8cd83e185f",
+      "toSide": "left"
+    },
+    {
+      "id": "39fd8564ca4d240f",
+      "styleAttributes": {},
+      "fromNode": "2a3fdf8cd83e185f",
+      "fromSide": "right",
+      "toNode": "853177824732bff2",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "30655168c05a8178",
+      "styleAttributes": {},
+      "fromNode": "853177824732bff2",
+      "fromSide": "right",
+      "toNode": "16d9d37b93476cad",
+      "toSide": "left"
+    },
+    {
+      "id": "71fcc4032bcc5798",
+      "styleAttributes": {},
+      "fromNode": "853177824732bff2",
+      "fromSide": "right",
+      "toNode": "436d0c1e488de34a",
+      "toSide": "left"
+    },
+    {
+      "id": "abe8ef189ea276a5",
+      "styleAttributes": {},
+      "fromNode": "59655d8ed377735e",
+      "fromSide": "right",
+      "toNode": "a6e9f95a5d9879ea",
+      "toSide": "left"
+    },
+    {
+      "id": "9fdb971b82ea1a99",
+      "styleAttributes": {},
+      "fromNode": "59655d8ed377735e",
+      "fromSide": "right",
+      "toNode": "9a08797594e86e6a",
+      "toSide": "left"
+    },
+    {
+      "id": "6720406705ee0fb8",
+      "styleAttributes": {},
+      "fromNode": "59655d8ed377735e",
+      "fromSide": "right",
+      "toNode": "cc4c8eb743a05369",
+      "toSide": "left"
+    },
+    {
+      "id": "045886987ff9a754",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "a6e9f95a5d9879ea",
+      "fromSide": "right",
+      "toNode": "adf59ef8fec6edae",
+      "toSide": "bottom"
+    },
+    {
+      "id": "8a4896f50d10a056",
+      "styleAttributes": {},
+      "fromNode": "a6e9f95a5d9879ea",
+      "fromSide": "right",
+      "toNode": "da0c944221e14f19",
+      "toSide": "left"
+    },
+    {
+      "id": "d421495a570f6dac",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "adf59ef8fec6edae",
+      "fromSide": "right",
+      "toNode": "da0c944221e14f19",
+      "toSide": "top"
+    },
+    {
+      "id": "352207cae3749271",
+      "styleAttributes": {},
+      "fromNode": "d390c013fb5fc4c3",
+      "fromSide": "right",
+      "toNode": "0a091c7c94ac0f04",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "1c047f396b1f8d54",
+      "styleAttributes": {},
+      "fromNode": "9a08797594e86e6a",
+      "fromSide": "right",
+      "toNode": "d390c013fb5fc4c3",
+      "toSide": "left"
+    },
+    {
+      "id": "b283ad515ec7dc3c",
+      "styleAttributes": {},
+      "fromNode": "cc4c8eb743a05369",
+      "fromSide": "right",
+      "toNode": "92f910b9c449db9c",
+      "toSide": "left"
+    },
+    {
+      "id": "757ee8293e50a972",
+      "styleAttributes": {},
+      "fromNode": "cc4c8eb743a05369",
+      "fromSide": "right",
+      "toNode": "3c60847f3ec68dec",
+      "toSide": "left"
+    },
+    {
+      "id": "477671ef23049aa5",
+      "styleAttributes": {},
+      "fromNode": "3c60847f3ec68dec",
+      "fromSide": "right",
+      "toNode": "556e6a8fe50bcd33",
+      "toSide": "left"
+    },
+    {
+      "id": "94aba68eea0f7b15",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "ccac1b878039a354",
+      "fromSide": "right",
+      "toNode": "9b513db0b960e2da",
+      "toSide": "left"
+    },
+    {
+      "id": "8aba8abee34f252a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "ccac1b878039a354",
+      "fromSide": "right",
+      "toNode": "e1600dcea992d1b9",
+      "toSide": "left"
+    },
+    {
+      "id": "908edb9b43f395f1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "66d874eb84d5e48c",
+      "fromSide": "right",
+      "toNode": "cdbd019412bb5c3d",
+      "toSide": "left"
+    },
+    {
+      "id": "f6585fddee6e3567",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "66d874eb84d5e48c",
+      "fromSide": "right",
+      "toNode": "df3c240ea7b70b43",
+      "toSide": "left"
+    },
+    {
+      "id": "8e3667cf08ae846c",
+      "styleAttributes": {},
+      "fromNode": "ea4eb97afc92696a",
+      "fromSide": "right",
+      "toNode": "ccac1b878039a354",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "f4b5314f9d87b7ec",
+      "styleAttributes": {},
+      "fromNode": "ccac1b878039a354",
+      "fromSide": "bottom",
+      "toNode": "66d874eb84d5e48c",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "5efadf7db5edecbd",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "60292ad66e9c2f89",
+      "fromSide": "right",
+      "toNode": "c7b449cd3dbe9d73",
+      "toSide": "left"
+    },
+    {
+      "id": "674882729563a4e4",
+      "styleAttributes": {},
+      "fromNode": "66d874eb84d5e48c",
+      "fromSide": "bottom",
+      "toNode": "60292ad66e9c2f89",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "c4985dfdea441247",
+      "styleAttributes": {},
+      "fromNode": "40dad80dc9b99106",
+      "fromSide": "right",
+      "toNode": "cf068e95dba53e48",
+      "toSide": "left"
+    },
+    {
+      "id": "313f34dc8ec9710b",
+      "styleAttributes": {},
+      "fromNode": "60292ad66e9c2f89",
+      "fromSide": "bottom",
+      "toNode": "40dad80dc9b99106",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "5bd69b43dde57402",
+      "styleAttributes": {},
+      "fromNode": "40dad80dc9b99106",
+      "fromSide": "bottom",
+      "toNode": "95896bf7be026f9f",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "55a87c8d492b3938",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "95896bf7be026f9f",
+      "fromSide": "right",
+      "toNode": "1eb305606297032d",
+      "toSide": "left"
+    },
+    {
+      "id": "31029289d6cb1e0a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "95896bf7be026f9f",
+      "fromSide": "right",
+      "toNode": "bb5a380f075d1a4f",
+      "toSide": "left"
+    },
+    {
+      "id": "9d3009224ac3d063",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "95896bf7be026f9f",
+      "fromSide": "right",
+      "toNode": "59655d8ed377735e",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}
