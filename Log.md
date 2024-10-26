@@ -98,5 +98,9 @@ Swift review & wrap up
 - [x] 100 Days of SwiftUI Day 10
 
 **26** Day 28
-- [ ] 100 Days of SwiftUI Day 11
-- [ ] wrap up day 10
+- [x] 100 Days of SwiftUI Day 11
+- [x] wrap up day 10
+- [x] Checkpoint6
+
+**27** Day 29
+- [ ] 100 Days of SwiftUI Day 12
