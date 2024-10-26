@@ -95,5 +95,8 @@ Swift review & wrap up
 - [x] Checkpoint 5
 
 **25** Day 27
-- [ ] 100 Days of SwiftUI Day 10
+- [x] 100 Days of SwiftUI Day 10
+
+**26** Day 28
 - [ ] 100 Days of SwiftUI Day 11
+- [ ] wrap up day 10
