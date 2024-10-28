@@ -15,7 +15,7 @@ struct car_info {
     mutating func change_gear(to direction: GearChangeDirection) {
         switch direction{
         case .up:
-            if currentGear < 6 {
+            if currentGear < 10 {
                 currentGear += 1
             } else {
                 print("Already in the highest gear.")

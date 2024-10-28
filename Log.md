@@ -1,7 +1,7 @@
 # 2024
-## September
+**September**  
 **29** Day 1  
-Started from [this post](https://www.reddit.com/r/iOSProgramming/comments/11qit84/from_hello_world_to_your_first_job_the_selftaught/).  
+Started from this [Reddit post](https://www.reddit.com/r/iOSProgramming/comments/11qit84/from_hello_world_to_your_first_job_the_selftaught/).  
 Installed Xcode 16  
 
 **30** Day 2  
@@ -11,7 +11,10 @@ Installed SF Symbols 6.
 Installed POSTMAN.  
 Started [***100 Days of SwiftUI***](https://www.hackingwithswift.com/100/swiftui)  
 100 Days of SwiftUI Day 0  
-## October
+
+**October**
+- [ ] 100 Days of SwiftUI Day 1-14
+
 **01** Day 3  
 100 Days of SwiftUI Day 1 1-5  
 
@@ -103,4 +106,19 @@ Swift review & wrap up
 - [x] Checkpoint6
 
 **27** Day 29
-- [ ] 100 Days of SwiftUI Day 12
+- [x] Swift Wrap up
+- [x] 100 Days of SwiftUI Day 12
+
+**28** Day 30
+- [ ] 100 Days of SwiftUI Day 13
+  
+**29** Day 31
+- [ ] 100 Days of SwiftUI Day 14
+
+**30** Day 32
+Swift wrap up
+
+**31** Day 33
+Halloween
+
+# November
