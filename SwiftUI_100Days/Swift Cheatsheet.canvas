@@ -1,113 +1,6 @@
 {
   "nodes": [
     {
-      "id": "9b513db0b960e2da",
-      "type": "text",
-      "text": "Variables, Constants, Strings, and Numbers\n",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1900,
-      "y": -3393,
-      "width": 443,
-      "height": 60
-    },
-    {
-      "id": "141ed29ad8c9e822",
-      "type": "text",
-      "text": "Variables\n",
-      "styleAttributes": {
-        "shape": "pill",
-        "textAlign": "center"
-      },
-      "x": -1244,
-      "y": -3823,
-      "width": 131,
-      "height": 55
-    },
-    {
-      "id": "178d1b8de82b1462",
-      "type": "text",
-      "text": "```Swift\nlet number = 10\nlet large_number = 10_000_000 // Swift ignores underscore\n```\n",
-      "styleAttributes": {},
-      "x": -790,
-      "y": -3126,
-      "width": 780,
-      "height": 113
-    },
-    {
-      "id": "3292ca5cf8c2a87a",
-      "type": "text",
-      "text": "Double",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -980,
-      "y": -2928,
-      "width": 120,
-      "height": 50
-    },
-    {
-      "id": "5ec40c719b299d70",
-      "type": "text",
-      "text": "```Swift\nvar variable = \"Changeable\"\nvariable = \"a new value\"\n```",
-      "styleAttributes": {
-        "shape": null
-      },
-      "x": -980,
-      "y": -3840,
-      "width": 380,
-      "height": 90
-    },
-    {
-      "id": "5394682ce3d536fc",
-      "type": "text",
-      "text": "Integer",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -980,
-      "y": -3099,
-      "width": 120,
-      "height": 60
-    },
-    {
-      "id": "5aa162f656968727",
-      "type": "text",
-      "text": "```Swift\nlet doubles = 0.1 + 0.2 // 0.30000000000000004\n```",
-      "styleAttributes": {},
-      "x": -790,
-      "y": -2933,
-      "width": 584,
-      "height": 60
-    },
-    {
-      "id": "84a424f3165f2681",
-      "type": "text",
-      "text": "```Swift\nnumber.isMultiple(of: 3) // true/false\n```",
-      "styleAttributes": {},
-      "x": 140,
-      "y": -3188,
-      "width": 495,
-      "height": 60,
-      "color": "2"
-    },
-    {
-      "id": "56b071f398878bf4",
-      "type": "text",
-      "text": "```Swift\n// Just like Python\nvar n = 10\nn += 2\nn -= 2\nn *= 2\nn /= 2\n```",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "x": 140,
-      "y": -3112,
-      "width": 296,
-      "height": 234,
-      "color": "2"
-    },
-    {
       "id": "df49d10fac55fa5f",
       "type": "text",
       "text": "`true`, `false`, `!`",
@@ -126,115 +19,6 @@
       "y": -2728,
       "width": 526,
       "height": 172
-    },
-    {
-      "id": "e1600dcea992d1b9",
-      "type": "text",
-      "text": "Booleans, Strings Interpolation",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": null,
-        "border": null
-      },
-      "x": -1832,
-      "y": -2556,
-      "width": 308,
-      "height": 60
-    },
-    {
-      "id": "cdbd019412bb5c3d",
-      "type": "text",
-      "text": "Arrays, Dictionaries, Sets, and Enums",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1869,
-      "y": -1420,
-      "width": 383,
-      "height": 60
-    },
-    {
-      "id": "7372042644a8a9c0",
-      "type": "text",
-      "text": "Constants",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -1243,
-      "y": -3689,
-      "width": 129,
-      "height": 59
-    },
-    {
-      "id": "d42ddf14281aef8f",
-      "type": "text",
-      "text": "```Swift\nlet constants = \"unchangeable\"\n```",
-      "x": -980,
-      "y": -3708,
-      "width": 400,
-      "height": 97
-    },
-    {
-      "id": "6b90af6d0570153e",
-      "type": "text",
-      "text": "```Swift\n// Swift can work with emojis\nlet x = \"😅\"\nprint(x)\n```",
-      "styleAttributes": {},
-      "x": -980,
-      "y": -3324,
-      "width": 395,
-      "height": 136
-    },
-    {
-      "id": "f90f19fbf1fdf335",
-      "type": "text",
-      "text": "```Swift\nvar x = \"string\"\nx = 3 // Error\n// Cannot assign to value: 'x' is a 'let' constant\n\n// Variable type cannot be changed\n// Swift is a type-safe language\n```",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "x": -232,
-      "y": -3840,
-      "width": 620,
-      "height": 229,
-      "color": "1"
-    },
-    {
-      "id": "607a1de2c02dc6b4",
-      "type": "text",
-      "text": "```Swift\nlet string = \"this is a string\"\nlet long_string = \"\"\"\nstrings can be breaked\ninto lines\nusing triple quotes\n\"\"\"\n```\n",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "x": -980,
-      "y": -3582,
-      "width": 450,
-      "height": 228
-    },
-    {
-      "id": "85250fdfe43ed595",
-      "type": "text",
-      "text": "Strings",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -1230,
-      "y": -3468,
-      "width": 103,
-      "height": 60
-    },
-    {
-      "id": "9bdf8df4eb1392c1",
-      "type": "text",
-      "text": "Numbers\n",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -1243,
-      "y": -3013,
-      "width": 130,
-      "height": 60
     },
     {
       "id": "1ff32adfb4e01fb3",
@@ -284,17 +68,6 @@
       "y": -2754,
       "width": 919,
       "height": 224
-    },
-    {
-      "id": "7252188e30520125",
-      "type": "text",
-      "text": "```Swift\nstring.count\nstring.uppercased()\nstring.hasPrefix(\"the prefix\") // true/false\nstring.hasSuffix(\"the suffix\") // true/false\n```",
-      "styleAttributes": {},
-      "x": -420,
-      "y": -3438,
-      "width": 560,
-      "height": 168,
-      "color": "2"
     },
     {
       "id": "33d459e6af9225a8",
@@ -511,18 +284,6 @@
       "height": 156
     },
     {
-      "id": "df3c240ea7b70b43",
-      "type": "text",
-      "text": "Type Annotations\n",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1806,
-      "y": -291,
-      "width": 260,
-      "height": 50
-    },
-    {
       "id": "8560aa052da3b1cb",
       "type": "text",
       "text": "```Swift\nlet username: String\n// lots of complex logic\nusername = \"@TheGooseGuy\"\n// lots more complex logic\nprint(username)\n```",
@@ -564,18 +325,6 @@
       "y": 157,
       "width": 128,
       "height": 56
-    },
-    {
-      "id": "c7b449cd3dbe9d73",
-      "type": "text",
-      "text": "If, Switch, and the Ternary Operator\n",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1864,
-      "y": 432,
-      "width": 377,
-      "height": 71
     },
     {
       "id": "9ec7fae25889c568",
@@ -750,18 +499,6 @@
       "height": 50
     },
     {
-      "id": "cf068e95dba53e48",
-      "type": "text",
-      "text": "Loops\n",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1739,
-      "y": 1653,
-      "width": 143,
-      "height": 50
-    },
-    {
       "id": "454d3a6bcbc23141",
       "type": "text",
       "text": "while\n",
@@ -878,19 +615,6 @@
       "height": 60
     },
     {
-      "id": "4adf09e65ae1f80c",
-      "type": "text",
-      "text": "return multiple values - tuple",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -577,
-      "y": 3218,
-      "width": 327,
-      "height": 82
-    },
-    {
       "id": "ea045297f3a820ca",
       "type": "text",
       "text": "```Swift\n// for is external label, can be omitted with '_' underscore\n// number is internal label\nfunc printTimesTables(for number: Int) {\n    for i in 1...12 {\n        print(\"\\(i) x \\(number) is \\(i * number)\")\n    }\n}\n\nprintTimesTables(for: 5)\n```",
@@ -957,15 +681,15 @@
     {
       "id": "1eb305606297032d",
       "type": "text",
-      "text": "Functions, Parameters, and Return Values\n",
+      "text": "## Functions, Parameters, and Return Values\n",
       "styleAttributes": {
         "textAlign": "center",
         "shape": null
       },
       "x": -1886,
-      "y": 2998,
+      "y": 2960,
       "width": 441,
-      "height": 77
+      "height": 160
     },
     {
       "id": "d0913c227a8118a8",
@@ -1001,16 +725,6 @@
       "height": 384
     },
     {
-      "id": "53cb75f3aa19f81d",
-      "type": "text",
-      "text": "```Swift\nenum PasswordError: Error {\n    case short, obvious\n}\n\nfunc checkPassword(_ password: String) throws -> String {\n    if password.count < 5 {\n        throw PasswordError.short\n    }\n\n    if password == \"12345\" {\n        throw PasswordError.obvious\n    }\n\n    if password.count < 8 {\n        return \"OK\"\n    } else if password.count < 10 {\n        return \"Good\"\n    } else {\n        return \"Excellent\"\n    }\n}\n```",
-      "styleAttributes": {},
-      "x": -838,
-      "y": 4441,
-      "width": 690,
-      "height": 631
-    },
-    {
       "id": "d7ff4ae180f4e07a",
       "type": "text",
       "text": "Default Value",
@@ -1022,18 +736,6 @@
       "y": 4170,
       "width": 260,
       "height": 60
-    },
-    {
-      "id": "bb5a380f075d1a4f",
-      "type": "text",
-      "text": "Default Values, Throwing Functions",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1850,
-      "y": 4200,
-      "width": 348,
-      "height": 64
     },
     {
       "id": "d8c1f35494ad1c87",
@@ -1080,18 +782,6 @@
       "width": 463,
       "height": 160,
       "color": "5"
-    },
-    {
-      "id": "59655d8ed377735e",
-      "type": "text",
-      "text": "Closures",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "x": -1742,
-      "y": 5365,
-      "width": 130,
-      "height": 50
     },
     {
       "id": "adf59ef8fec6edae",
@@ -1158,32 +848,6 @@
       "color": "5"
     },
     {
-      "id": "9a08797594e86e6a",
-      "type": "text",
-      "text": "Shorthand Syntax",
-      "styleAttributes": {
-        "shape": "pill",
-        "textAlign": "center"
-      },
-      "x": -1307,
-      "y": 6559,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "cc4c8eb743a05369",
-      "type": "text",
-      "text": "Functions as parameters",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "pill"
-      },
-      "x": -1315,
-      "y": 6951,
-      "width": 285,
-      "height": 60
-    },
-    {
       "id": "556e6a8fe50bcd33",
       "type": "text",
       "text": "```swift\ndoImportantWork {\n    print(\"This is the first work\")\n} second: {\n    print(\"This is the second work\")\n} third: {\n    print(\"This is the third work\")\n}\n```",
@@ -1226,81 +890,15 @@
     {
       "id": "ccac1b878039a354",
       "type": "text",
-      "text": "Simple Data Types",
+      "text": "# Simple Data Types",
       "styleAttributes": {
         "textAlign": "center",
         "shape": "predefined-process"
       },
-      "x": -2560,
-      "y": -3013,
-      "width": 280,
+      "x": -2640,
+      "y": -2997,
+      "width": 360,
       "height": 85
-    },
-    {
-      "id": "66d874eb84d5e48c",
-      "type": "text",
-      "text": "Complex Data Types",
-      "styleAttributes": {
-        "shape": "predefined-process",
-        "textAlign": "center"
-      },
-      "x": -2540,
-      "y": -860,
-      "width": 240,
-      "height": 90
-    },
-    {
-      "id": "60292ad66e9c2f89",
-      "type": "text",
-      "text": "Conditions",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "predefined-process"
-      },
-      "x": -2550,
-      "y": 420,
-      "width": 260,
-      "height": 95
-    },
-    {
-      "id": "40dad80dc9b99106",
-      "type": "text",
-      "text": "Loops",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "predefined-process"
-      },
-      "x": -2550,
-      "y": 1635,
-      "width": 260,
-      "height": 87
-    },
-    {
-      "id": "95896bf7be026f9f",
-      "type": "text",
-      "text": "Functions",
-      "styleAttributes": {
-        "textAlign": "center",
-        "shape": "predefined-process"
-      },
-      "x": -2550,
-      "y": 4167,
-      "width": 260,
-      "height": 127
-    },
-    {
-      "id": "ea4eb97afc92696a",
-      "type": "text",
-      "text": "Swift Basics",
-      "styleAttributes": {
-        "border": null,
-        "shape": "database",
-        "textAlign": "center"
-      },
-      "x": -3020,
-      "y": -3005,
-      "width": 260,
-      "height": 70
     },
     {
       "id": "3c60847f3ec68dec",
@@ -1311,166 +909,780 @@
       "y": 7205,
       "width": 644,
       "height": 340
+    },
+    {
+      "id": "53cb75f3aa19f81d",
+      "type": "text",
+      "text": "```Swift\nenum PasswordError: Error {\n    case short, obvious\n}\n\nfunc checkPassword(_ password: String) throws -> String {\n    if password.count < 5 {\n        throw PasswordError.short\n    }\n\n    if password == \"12345\" {\n        throw PasswordError.obvious\n    }\n\n    if password.count < 8 {\n        return \"OK\"\n    } else if password.count < 10 {\n        return \"Good\"\n    } else {\n        return \"Excellent\"\n    }\n}\n```",
+      "styleAttributes": {},
+      "x": -827,
+      "y": 4441,
+      "width": 690,
+      "height": 631
+    },
+    {
+      "id": "cc4c8eb743a05369",
+      "type": "text",
+      "text": "Functions as parameters",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1315,
+      "y": 6951,
+      "width": 285,
+      "height": 60
+    },
+    {
+      "id": "9a08797594e86e6a",
+      "type": "text",
+      "text": "Shorthand Syntax",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1303,
+      "y": 6560,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "4adf09e65ae1f80c",
+      "type": "text",
+      "text": "return multiple values - tuple",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -589,
+      "y": 3200,
+      "width": 327,
+      "height": 82
+    },
+    {
+      "id": "7362b154b65ec92c",
+      "type": "text",
+      "text": "By default, properties of a struct cannot be modified within instance methods. To modify them, mark the method as `mutating`.\n```Swift\nstruct Counter {\n    var count = 0\n    \n    mutating func increment() {\n        count += 1\n    }\n}\n\nvar counter = Counter()\ncounter.increment()\nprint(counter.count) // 1\n```",
+      "styleAttributes": {},
+      "x": -812,
+      "y": 8492,
+      "width": 725,
+      "height": 440
+    },
+    {
+      "id": "785db80cda9eaa31",
+      "type": "text",
+      "text": "Structs can have custom initializers to set up their properties in a specific way. Swift provides a default memberwise initializer, but you can add your own initializers if needed.\n```Swift\nstruct Temperature {\n    var celsius: Double\n    \n    init(fromFahrenheit fahrenheit: Double) {\n        celsius = (fahrenheit - 32) * 5 / 9\n    }\n}\nlet temp = Temperature(fromFahrenheit: 98.6)\nprint(temp.celsius) // 37.0\n```",
+      "styleAttributes": {},
+      "x": -812,
+      "y": 9005,
+      "width": 830,
+      "height": 400
+    },
+    {
+      "id": "036522a51a41bd20",
+      "type": "text",
+      "text": "`self` refers to the current instance of a class, struct, or enum. You use it within an instance to differentiate properties and methods from local variables or parameters, and it’s often used in initializers or methods.\n```Swift\nstruct Rectangle {\n    var width: Double\n    var height: Double\n    \n    init(width: Double, height: Double) {\n        self.width = width\n        self.height = height\n    }\n    \n    func area() -> Double {\n        return self.width * self.height  // Using `self` to access properties\n    }\n}\n\nlet rectangle = Rectangle(width: 10, height: 5)\nprint(\"Area of the rectangle: \\(rectangle.area())\")\n```",
+      "styleAttributes": {},
+      "x": 139,
+      "y": 8908,
+      "width": 897,
+      "height": 594
+    },
+    {
+      "id": "08640b462a617bee",
+      "type": "text",
+      "text": "Structs can conform to protocols, which define a blueprint of properties and methods that a type must implement.\n```Swift\nprotocol Describable {\n    func describe()\n}\n\nstruct Car: Describable {\n    var model: String\n    \n    func describe() {\n        print(\"Car model: \\(model)\")\n    }\n}\nlet car = Car(model: \"Tesla Model S\")\ncar.describe() // Car model: Tesla Model S\n```",
+      "styleAttributes": {},
+      "x": -812,
+      "y": 9502,
+      "width": 575,
+      "height": 495
+    },
+    {
+      "id": "3ce83f8f8588d72c",
+      "type": "text",
+      "text": "Property Observers\n```Swift\nstruct Person {\n    var age: Int {\n        willSet(newAge) {\n            print(\"About to set age to \\(newAge)\")\n        }\n        didSet(oldAge) {\n            print(\"Just changed age from \\(oldAge) to \\(age)\")\n        }\n    }\n}\n\nvar person = Person(age: 25)\nperson.age = 26\n```",
+      "styleAttributes": {},
+      "x": -812,
+      "y": 10045,
+      "width": 940,
+      "height": 455
+    },
+    {
+      "id": "d9ee3c24d81f4eae",
+      "type": "text",
+      "text": "```Swift\nstruct Person {\n    var name: String\n    var age: Int\n// Two properties, name, age\n}\n```",
+      "styleAttributes": {},
+      "x": -1501,
+      "y": 7634,
+      "width": 380,
+      "height": 193
+    },
+    {
+      "id": "5612484f854c5328",
+      "type": "text",
+      "text": "- Variables and constants that belong to structs are called _properties_.\n- Functions that belong to structs are called _methods_.\n- A constant or variable created out of a struct is called _instance_",
+      "styleAttributes": {},
+      "x": -2221,
+      "y": 7650,
+      "width": 640,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "87e6cf078ede95f2",
+      "type": "text",
+      "text": "```Swift\nstruct Rectangle {\n    var width: Double\n    var height: Double\n    \n    var area: Double {       // Computed property\n        return width * height\n    }\n    \n    func describe() {        // Method\n        print(\"Rectangle: \\(width) x \\(height), Area: \\(area)\")\n    }\n}\n```",
+      "styleAttributes": {},
+      "x": -812,
+      "y": 8015,
+      "width": 774,
+      "height": 400
+    },
+    {
+      "id": "a4537d6efb37b2cb",
+      "type": "text",
+      "text": "```Swift\nlet person = Person(name: \"Alice\", age: 30)\n// create instance\n```",
+      "styleAttributes": {},
+      "x": -812,
+      "y": 7667,
+      "width": 560,
+      "height": 122
+    },
+    {
+      "id": "504549f5710a94c5",
+      "type": "text",
+      "text": "```Swift\nstruct Book {\n    var title: String\n    var author: String\n    var pages: Int\n    \n    func describe() {\n        print(\"Book: \\(title) by \\(author), \\(pages) pages.\")\n    }\n}\n\nlet book = Book(title: \"Swift Programming\", author: \"Apple\", pages: 400)\nbook.describe()  // Book: Swift Programming by Apple, 400 pages.\n```",
+      "styleAttributes": {},
+      "x": -1910,
+      "y": 7987,
+      "width": 760,
+      "height": 420
+    },
+    {
+      "id": "55f49aea6db4bb44",
+      "type": "text",
+      "text": "Each instance holds a unique copy of the data in struct. Change one doesn't affect another.\n```Swift\nvar originalPerson = Person(name: \"Alice\", age: 30)\nvar copiedPerson = originalPerson\ncopiedPerson.age = 31\n\nprint(originalPerson.age) // 30\nprint(copiedPerson.age)   // 31\n```",
+      "styleAttributes": {},
+      "x": -101,
+      "y": 7667,
+      "width": 622,
+      "height": 320
+    },
+    {
+      "id": "79a2755626622468",
+      "type": "text",
+      "text": "Stored Property: \nvalue is stashed away in some memory to be used later\n",
+      "styleAttributes": {},
+      "x": 85,
+      "y": 8045,
+      "width": 534,
+      "height": 80
+    },
+    {
+      "id": "e8503012f7879736",
+      "type": "text",
+      "text": "Computed Property:\nvalue is recomputed every time it’s called",
+      "styleAttributes": {},
+      "x": 85,
+      "y": 8245,
+      "width": 414,
+      "height": 110,
+      "color": "2"
+    },
+    {
+      "id": "bf4ffa4da7d45362",
+      "type": "text",
+      "text": "Tuple is anonymous struct.\nStruct is a tuple that can easily add new properties.\n\nWhen return two or more arbitrary pieces of value from function, use tuple. When have fixed data you want to send or receive multiple times, use struct.\n\nSwift encourages using structs for data types that:\n\n- Primarily encapsulate simple data.\n- Should be copied on assignment rather than shared.\n- Need to conform to protocols or contain behavior in methods.\n- Do not require inheritance, as structs cannot inherit from other structs.",
+      "styleAttributes": {},
+      "x": 656,
+      "y": 7328,
+      "width": 760,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "da49a1960b3d595b",
+      "type": "text",
+      "text": "```Swift\nstruct Temperature {\n    var celsius: Double {\n        willSet {\n            print(\"Temperature will change from \\(celsius)°C to \\(newValue)°C\")\n        }\n        didSet {\n            print(\"Temperature changed by \\(celsius - oldValue)°C\")\n        }\n    }\n}\n\nvar temp = Temperature(celsius: 20.0)\ntemp.celsius = 25.0\n\n```",
+      "styleAttributes": {},
+      "x": 240,
+      "y": 10045,
+      "width": 916,
+      "height": 453
+    },
+    {
+      "id": "ea4eb97afc92696a",
+      "type": "text",
+      "text": "# Swift Basics",
+      "styleAttributes": {
+        "border": null,
+        "shape": "database",
+        "textAlign": "center"
+      },
+      "x": -3060,
+      "y": -2989,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "e1600dcea992d1b9",
+      "type": "text",
+      "text": "## Booleans, Strings Interpolation",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": null,
+        "border": null
+      },
+      "x": -1866,
+      "y": -2580,
+      "width": 376,
+      "height": 100
+    },
+    {
+      "id": "66d874eb84d5e48c",
+      "type": "text",
+      "text": "# Complex Data Types",
+      "styleAttributes": {
+        "shape": "predefined-process",
+        "textAlign": "center"
+      },
+      "x": -2660,
+      "y": -888,
+      "width": 400,
+      "height": 90
+    },
+    {
+      "id": "cdbd019412bb5c3d",
+      "type": "text",
+      "text": "## Arrays, Dictionaries, Sets, and Enums",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1869,
+      "y": -1444,
+      "width": 383,
+      "height": 140
+    },
+    {
+      "id": "df3c240ea7b70b43",
+      "type": "text",
+      "text": "## Type Annotations\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1807,
+      "y": -319,
+      "width": 260,
+      "height": 107
+    },
+    {
+      "id": "60292ad66e9c2f89",
+      "type": "text",
+      "text": "# Conditions",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2590,
+      "y": 420,
+      "width": 260,
+      "height": 95
+    },
+    {
+      "id": "c7b449cd3dbe9d73",
+      "type": "text",
+      "text": "## If, Switch, and the Ternary Operator\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1897,
+      "y": 409,
+      "width": 440,
+      "height": 118
+    },
+    {
+      "id": "40dad80dc9b99106",
+      "type": "text",
+      "text": "# Loops",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2590,
+      "y": 1648,
+      "width": 260,
+      "height": 87
+    },
+    {
+      "id": "bb5a380f075d1a4f",
+      "type": "text",
+      "text": "## Default Values, Throwing Functions",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1839,
+      "y": 4184,
+      "width": 348,
+      "height": 116
+    },
+    {
+      "id": "95896bf7be026f9f",
+      "type": "text",
+      "text": "# Functions",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2590,
+      "y": 4194,
+      "width": 260,
+      "height": 97
+    },
+    {
+      "id": "59655d8ed377735e",
+      "type": "text",
+      "text": "## Closures",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1746,
+      "y": 5344,
+      "width": 162,
+      "height": 92
+    },
+    {
+      "id": "3827cae22cd38409",
+      "type": "text",
+      "text": "# Struct",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2570,
+      "y": 7691,
+      "width": 221,
+      "height": 75
+    },
+    {
+      "id": "178d1b8de82b1462",
+      "type": "text",
+      "text": "```Swift\nlet number = 10\nlet large_number = 10_000_000 // Swift ignores underscore\n```\n",
+      "styleAttributes": {},
+      "x": -790,
+      "y": -3126,
+      "width": 780,
+      "height": 113
+    },
+    {
+      "id": "3292ca5cf8c2a87a",
+      "type": "text",
+      "text": "Double",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -980,
+      "y": -2928,
+      "width": 120,
+      "height": 50
+    },
+    {
+      "id": "5ec40c719b299d70",
+      "type": "text",
+      "text": "```Swift\nvar variable = \"Changeable\"\nvariable = \"a new value\"\n```",
+      "styleAttributes": {
+        "shape": null
+      },
+      "x": -980,
+      "y": -3840,
+      "width": 380,
+      "height": 90
+    },
+    {
+      "id": "5394682ce3d536fc",
+      "type": "text",
+      "text": "Integer",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -980,
+      "y": -3099,
+      "width": 120,
+      "height": 60
+    },
+    {
+      "id": "5aa162f656968727",
+      "type": "text",
+      "text": "```Swift\nlet doubles = 0.1 + 0.2 // 0.30000000000000004\n```",
+      "styleAttributes": {},
+      "x": -790,
+      "y": -2933,
+      "width": 584,
+      "height": 60
+    },
+    {
+      "id": "84a424f3165f2681",
+      "type": "text",
+      "text": "```Swift\nnumber.isMultiple(of: 3) // true/false\n```",
+      "styleAttributes": {},
+      "x": 140,
+      "y": -3188,
+      "width": 495,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "56b071f398878bf4",
+      "type": "text",
+      "text": "```Swift\n// Just like Python\nvar n = 10\nn += 2\nn -= 2\nn *= 2\nn /= 2\n```",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": 140,
+      "y": -3112,
+      "width": 296,
+      "height": 234,
+      "color": "2"
+    },
+    {
+      "id": "6b90af6d0570153e",
+      "type": "text",
+      "text": "```Swift\n// Swift can work with emojis\nlet x = \"😅\"\nprint(x)\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -3324,
+      "width": 395,
+      "height": 136
+    },
+    {
+      "id": "607a1de2c02dc6b4",
+      "type": "text",
+      "text": "```Swift\nlet string = \"this is a string\"\nlet long_string = \"\"\"\nstrings can be breaked\ninto lines\nusing triple quotes\n\"\"\"\n```\n",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": -980,
+      "y": -3582,
+      "width": 450,
+      "height": 228
+    },
+    {
+      "id": "d42ddf14281aef8f",
+      "type": "text",
+      "text": "```Swift\nlet constants = \"unchangeable\"\n```",
+      "styleAttributes": {},
+      "x": -980,
+      "y": -3698,
+      "width": 400,
+      "height": 78
+    },
+    {
+      "id": "9b513db0b960e2da",
+      "type": "text",
+      "text": "## Variables, Constants, Strings, and Numbers\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -1900,
+      "y": -3408,
+      "width": 443,
+      "height": 108
+    },
+    {
+      "id": "141ed29ad8c9e822",
+      "type": "text",
+      "text": "Variables\n",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "x": -1244,
+      "y": -3823,
+      "width": 131,
+      "height": 55
+    },
+    {
+      "id": "7372042644a8a9c0",
+      "type": "text",
+      "text": "Constants",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1243,
+      "y": -3689,
+      "width": 129,
+      "height": 59
+    },
+    {
+      "id": "85250fdfe43ed595",
+      "type": "text",
+      "text": "Strings",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1230,
+      "y": -3468,
+      "width": 103,
+      "height": 60
+    },
+    {
+      "id": "9bdf8df4eb1392c1",
+      "type": "text",
+      "text": "Numbers\n",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "pill"
+      },
+      "x": -1243,
+      "y": -3013,
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": "f90f19fbf1fdf335",
+      "type": "text",
+      "text": "```Swift\nvar x = \"string\"\nx = 3 // Error\n// Cannot assign to value: 'x' is a 'let' constant\n\n// Variable type cannot be changed\n// Swift is a type-safe language\n```",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "x": -334,
+      "y": -3979,
+      "width": 620,
+      "height": 229,
+      "color": "1"
+    },
+    {
+      "id": "7252188e30520125",
+      "type": "text",
+      "text": "```Swift\nstring.inEmpty // true/false\nstring.count // Int\nstring.uppercased() // String\nstring.lowercased() // String\nstring.capitalized //Capitalize the first letter of each word.\nstring.contains(\"keyword\") //search, true/false\nstring.hasPrefix(\"the prefix\") // true/false\nstring.hasSuffix(\"the suffix\") // true/false\nstring.append(\"x\") // Add to the end of target string\nstring.prefix(Int) // Extracts the first Int characters\nstring.suffix(Int) // Extracts the last Int characters\nstring.dropFirst(Int)\nstring.dropLast(Int)\nstring.split(seprator: \" \")\nstring.replacingOccurrences(of: \"a\", with \"b\")\n```",
+      "styleAttributes": {},
+      "x": -452,
+      "y": -3672,
+      "width": 740,
+      "height": 469,
+      "color": "2"
+    },
+    {
+      "id": "84ec6301dc61b8df",
+      "type": "text",
+      "text": "```Swift\nnumber.sign // .plus/.minus\nnumber.rounded()\nlet random_int = Int.random(in: 1...10)\nlet random_double = Double.random(in: 0..<1)\nabs(number) // Absolute value\npow(a, b) // a^b\nsqrt(number)\nmin, max\n```",
+      "styleAttributes": {},
+      "x": 680,
+      "y": -3223,
+      "width": 560,
+      "height": 307,
+      "color": "2"
+    },
+    {
+      "id": "d61d659fc0e5ba6b",
+      "type": "text",
+      "text": "# Classes",
+      "styleAttributes": {
+        "shape": "predefined-process",
+        "textAlign": "center"
+      },
+      "x": -2589,
+      "y": 10880,
+      "width": 260,
+      "height": 94
+    },
+    {
+      "id": "a11ce284029a2e0b",
+      "type": "text",
+      "text": "Swift uses struct extensively for UI design, and it uses classes extensively for its data",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "x": -2459,
+      "y": 10560,
+      "width": 440,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "dea141371b6918fb",
+      "type": "text",
+      "text": "Define Class:\n```Swift\nclass Animal {\n    var name: String\n    var age: Int\n\n    init(name: String, age: Int) {\n        self.name = name\n        self.age = age\n    }\n\n    func speak() {\n        print(\"The animal makes a sound.\")\n    }\n}\n```",
+      "styleAttributes": {},
+      "x": -2149,
+      "y": 10698,
+      "width": 539,
+      "height": 459
+    },
+    {
+      "id": "ce079bd4daf800b3",
+      "type": "text",
+      "text": "`self` is used to distinguish between the property and parameter  with the same name",
+      "styleAttributes": {},
+      "x": -2149,
+      "y": 11157,
+      "width": 539,
+      "height": 103
+    },
+    {
+      "id": "02762247e42f57a0",
+      "type": "text",
+      "text": "Create instance(object):\n```Swift\nlet myPet = Animal(name: \"Buddy\", age: 3)\nprint(myPet.name)  // Output: Buddy\nmyPet.speak()      // Output: The animal makes a sound.\n```",
+      "styleAttributes": {},
+      "x": -1360,
+      "y": 10632,
+      "width": 635,
+      "height": 248
+    },
+    {
+      "id": "65f663c73ca55a2e",
+      "type": "text",
+      "text": "Access Control\n",
+      "styleAttributes": {},
+      "x": -2349,
+      "y": 8462,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "38574576a09d4af3",
+      "type": "text",
+      "text": "\n| Access Level   | Accessible From                                                | Use Case                                                                    |\n| -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------- |\n| `private`      | Same type (class, struct, etc.) only                           | For strict encapsulation; prevent outside access completely                 |\n| `fileprivate`  | Same file                                                      | For sharing access within a single file, not across files                   |\n| `public`       | Anywhere, across modules                                       | For creating APIs or libraries accessible to any module                     |\n| `private(set)` | Readable from outside, but writable only within defining scope | To provide a read-only view to the outside while keeping control internally |\n",
+      "styleAttributes": {},
+      "x": -2221,
+      "y": 8623,
+      "width": 950,
+      "height": 335
+    },
+    {
+      "id": "68c2f9609d7179df",
+      "type": "text",
+      "text": "```Swift\nclass Car {\n    private var engine: String = \"V8\"\n    \n    func startEngine() {\n        print(\"Starting \\(engine) engine\")\n    }\n}\n\nlet car = Car()\n// car.engine  // Error: 'engine' is inaccessible due to 'private' protection level\n```",
+      "styleAttributes": {},
+      "x": -2329,
+      "y": 9040,
+      "width": 751,
+      "height": 407
+    },
+    {
+      "id": "bd1df71b410b6102",
+      "type": "text",
+      "text": "```Swift\nclass Car {\n    fileprivate var engine: String = \"V8\"\n}\n\nclass Mechanic {\n    func inspectEngine(of car: Car) {\n        print(\"Inspecting \\(car.engine) engine\")  // Accessible because it's in the same file\n    }\n}\n```",
+      "styleAttributes": {},
+      "x": -2329,
+      "y": 9502,
+      "width": 753,
+      "height": 349
+    },
+    {
+      "id": "1133bada5dcc1cda",
+      "type": "text",
+      "text": "**Inheritance and Overrriding**\n```Swift\nclass Dog: Animal {\n    override func speak() {\n        print(\"\\(name) barks!\")\n    }\n}\n\nlet myDog = Dog(name: \"Rover\", age: 5)\nmyDog.speak()  // Output: Rover barks!\n```\n- **Inheritance**: `Dog` inherits all properties and methods from `Animal`.\n- **Overriding**: `Dog` overrides the `speak` method to provide custom behavior.",
+      "styleAttributes": {},
+      "x": -580,
+      "y": 10716,
+      "width": 765,
+      "height": 424
+    },
+    {
+      "id": "a9e50488b546a653",
+      "type": "text",
+      "text": "Access Control:\nControl the visibility of properties and methods using access control keywords:\n\n- **public**: Visible to any code outside the class.\n- **private**: Visible only within the class.\n- **internal**: Visible only within the same module (default).\n- **fileprivate**: Visible only within the same file.",
+      "styleAttributes": {},
+      "x": -1360,
+      "y": 10974,
+      "width": 635,
+      "height": 286
+    },
+    {
+      "id": "9eef410f12a6d30b",
+      "type": "text",
+      "text": "Reference Semantics:\nWhen  assigning an object to another variable, both refer to the same object in memory.\n```Swift\nclass Person {\n    var name: String\n    init(name: String) {\n        self.name = name\n    }\n}\n\nlet person1 = Person(name: \"Alice\")\nlet person2 = person1\nperson2.name = \"Bob\"\n\nprint(person1.name)  // Output: Bob\n```\n`person1` and `person2` refer to the same instance of `Person`. Changing `person2.name` also changes `person1.name`.",
+      "styleAttributes": {},
+      "x": -1360,
+      "y": 11320,
+      "width": 733,
+      "height": 580
+    },
+    {
+      "id": "a309cf2a22a0dc11",
+      "type": "text",
+      "text": "`denit`: called when an instance is deallocated (removed from memory). This is useful for cleanup tasks, such as releasing resources.\n```Swift\nclass FileHandler {\n    init() {\n        print(\"File opened.\")\n    }\n    \n    deinit {\n        print(\"File closed.\")\n    }\n}\n\nvar handler: FileHandler? = FileHandler()  // Output: File opened.\nhandler = nil  // Output: File closed.\n```\nIn this example, the `deinit` method runs automatically when the instance is set to `nil` and deallocated.",
+      "styleAttributes": {},
+      "x": -580,
+      "y": 11209,
+      "width": 765,
+      "height": 571
+    },
+    {
+      "id": "505a04324439d9ac",
+      "type": "text",
+      "text": "### Summary of Differences Between Classes and Structs\n\n|Feature|Class|Struct|\n|---|---|---|\n|Inheritance|Yes|No|\n|Reference Semantics|Yes (reference)|No (value)|\n|`deinit` method|Yes|No|\n|Mutability|Controlled by var|Controlled by let|\n|Default Initializer|No, unless all properties are initialized|Yes|",
+      "styleAttributes": {},
+      "x": -3329,
+      "y": 9102,
+      "width": 740,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "9c0a412d8b826a8e",
+      "type": "text",
+      "text": "e.g. build a car class\n```Swift\nclass Car {\n    let model: String\n    var speed: Int\n    static var carCount = 0  // A static property for the class\n\n    init(model: String, speed: Int) {\n        self.model = model\n        self.speed = speed\n        Car.carCount += 1\n    }\n\n    func accelerate(by amount: Int) {\n        speed += amount\n        print(\"\\(model) accelerated to \\(speed) mph.\")\n    }\n}\n\nlet car1 = Car(model: \"Tesla\", speed: 60)\ncar1.accelerate(by: 20)   // Output: Tesla accelerated to 80 mph.\nprint(Car.carCount)       // Output: 1\n```\nIn this `Car` class:\n\n- **Instance Properties**: Each `Car` instance has its own `model` and `speed`.\n- **Static Properties**: `carCount` is a `static` property, shared across all `Car` instances.\n- **Methods**: `accelerate` adjusts the speed of a specific car instance.",
+      "styleAttributes": {},
+      "x": 240,
+      "y": 10770,
+      "width": 876,
+      "height": 840
+    },
+    {
+      "id": "36f189cd56406cf5",
+      "type": "text",
+      "text": "```swift\npublic class Car {\n    public var model: String\n    \n    public init(model: String) {\n        self.model = model\n    }\n}\n\nlet car = Car(model: \"Tesla\")  // Accessible from anywhere\nprint(car.model)  // \"Tesla\"\n```",
+      "styleAttributes": {},
+      "x": -2384,
+      "y": 9972,
+      "width": 638,
+      "height": 370
+    },
+    {
+      "id": "941734b0153e37f9",
+      "type": "text",
+      "text": "```Swift\nstruct BankAccount {\n    private(set) var balance: Double = 0.0\n    \n    mutating func deposit(amount: Double) {\n        balance += amount\n    }\n}\n\nvar account = BankAccount()\nprint(account.balance)  // Accessible for reading\n// account.balance = 500  // Error: 'balance' setter is inaccessible due to 'private' protection level\naccount.deposit(amount: 500)\nprint(account.balance)  // 500.0\n```",
+      "styleAttributes": {},
+      "x": -1680,
+      "y": 9916,
+      "width": 742,
+      "height": 482
+    },
+    {
+      "id": "5a9e3b49da537311",
+      "type": "text",
+      "text": "# Protocols and Extensions",
+      "styleAttributes": {
+        "textAlign": "center",
+        "shape": "predefined-process"
+      },
+      "x": -2704,
+      "y": 12360,
+      "width": 490,
+      "height": 120
+    },
+    {
+      "id": "7b49e2033fdc4fc3",
+      "type": "text",
+      "text": "# Optionals, nil coalescing",
+      "styleAttributes": {
+        "shape": "predefined-process",
+        "textAlign": "center"
+      },
+      "x": -2728,
+      "y": 12860,
+      "width": 539,
+      "height": 100
     }
   ],
   "edges": [
-    {
-      "id": "c6b718d5ff4d39b3",
-      "fromNode": "141ed29ad8c9e822",
-      "fromSide": "right",
-      "toNode": "5ec40c719b299d70",
-      "toSide": "left"
-    },
-    {
-      "id": "2533be445495ebab",
-      "styleAttributes": {
-        "pathfindingMethod": null
-      },
-      "fromNode": "9b513db0b960e2da",
-      "fromSide": "right",
-      "toNode": "141ed29ad8c9e822",
-      "toSide": "left"
-    },
-    {
-      "id": "9763ae0abcd2b616",
-      "styleAttributes": {},
-      "fromNode": "9b513db0b960e2da",
-      "fromSide": "right",
-      "toNode": "7372042644a8a9c0",
-      "toSide": "left"
-    },
-    {
-      "id": "2947e2d2ecf86c41",
-      "styleAttributes": {},
-      "fromNode": "7372042644a8a9c0",
-      "fromSide": "right",
-      "toNode": "d42ddf14281aef8f",
-      "toSide": "left"
-    },
-    {
-      "id": "30037db56ba510a5",
-      "styleAttributes": {},
-      "fromNode": "9b513db0b960e2da",
-      "fromSide": "right",
-      "toNode": "85250fdfe43ed595",
-      "toSide": "left"
-    },
-    {
-      "id": "88e36433802d9ea6",
-      "styleAttributes": {},
-      "fromNode": "85250fdfe43ed595",
-      "fromSide": "right",
-      "toNode": "607a1de2c02dc6b4",
-      "toSide": "left"
-    },
-    {
-      "id": "d280adfb1b2cb34b",
-      "styleAttributes": {},
-      "fromNode": "607a1de2c02dc6b4",
-      "fromSide": "right",
-      "toNode": "7252188e30520125",
-      "toSide": "left"
-    },
-    {
-      "id": "2a4b6a01a6bdd15d",
-      "styleAttributes": {},
-      "fromNode": "9b513db0b960e2da",
-      "fromSide": "right",
-      "toNode": "9bdf8df4eb1392c1",
-      "toSide": "left"
-    },
-    {
-      "id": "c40f3ecd3d36fff1",
-      "styleAttributes": {},
-      "fromNode": "9bdf8df4eb1392c1",
-      "fromSide": "right",
-      "toNode": "5394682ce3d536fc",
-      "toSide": "left"
-    },
-    {
-      "id": "20334729e4805396",
-      "styleAttributes": {},
-      "fromNode": "9bdf8df4eb1392c1",
-      "fromSide": "right",
-      "toNode": "3292ca5cf8c2a87a",
-      "toSide": "left"
-    },
-    {
-      "id": "9568e70252d172e1",
-      "styleAttributes": {},
-      "fromNode": "5394682ce3d536fc",
-      "fromSide": "right",
-      "toNode": "178d1b8de82b1462",
-      "toSide": "left"
-    },
-    {
-      "id": "4c8b44a988a2e325",
-      "styleAttributes": {},
-      "fromNode": "178d1b8de82b1462",
-      "fromSide": "right",
-      "toNode": "56b071f398878bf4",
-      "toSide": "left"
-    },
-    {
-      "id": "f6784775efc81093",
-      "styleAttributes": {},
-      "fromNode": "178d1b8de82b1462",
-      "fromSide": "right",
-      "toNode": "84a424f3165f2681",
-      "toSide": "left"
-    },
-    {
-      "id": "67afb43764c98d7d",
-      "styleAttributes": {},
-      "fromNode": "3292ca5cf8c2a87a",
-      "fromSide": "right",
-      "toNode": "5aa162f656968727",
-      "toSide": "left"
-    },
-    {
-      "id": "76a1a063f13668d7",
-      "styleAttributes": {},
-      "fromNode": "5aa162f656968727",
-      "fromSide": "right",
-      "toNode": "731a4a8a78023bb1",
-      "toSide": "left"
-    },
-    {
-      "id": "d6889616fdc7afe8",
-      "styleAttributes": {
-        "path": "long-dashed",
-        "pathfindingMethod": "a-star",
-        "arrow": null
-      },
-      "fromNode": "85250fdfe43ed595",
-      "fromSide": "top",
-      "toNode": "f90f19fbf1fdf335",
-      "toSide": "left"
-    },
-    {
-      "id": "2836732589d0306a",
-      "styleAttributes": {
-        "path": "long-dashed",
-        "pathfindingMethod": "a-star",
-        "arrow": null
-      },
-      "fromNode": "5394682ce3d536fc",
-      "fromSide": "top",
-      "toNode": "f90f19fbf1fdf335",
-      "toSide": "left"
-    },
-    {
-      "id": "33015bbfb17a91ac",
-      "styleAttributes": {
-        "pathfindingMethod": "a-star",
-        "path": "long-dashed",
-        "arrow": null
-      },
-      "fromNode": "5ec40c719b299d70",
-      "fromSide": "right",
-      "toNode": "f90f19fbf1fdf335",
-      "toSide": "left"
-    },
     {
       "id": "53fd2a7d42e7cf6f",
       "styleAttributes": {},
@@ -1693,22 +1905,6 @@
       "toSide": "left"
     },
     {
-      "id": "f730792c14ecb21b",
-      "styleAttributes": {},
-      "fromNode": "6b90af6d0570153e",
-      "fromSide": "right",
-      "toNode": "7252188e30520125",
-      "toSide": "left"
-    },
-    {
-      "id": "167296ebee3d56ba",
-      "styleAttributes": {},
-      "fromNode": "85250fdfe43ed595",
-      "fromSide": "right",
-      "toNode": "6b90af6d0570153e",
-      "toSide": "left"
-    },
-    {
       "id": "9ceb5b7f185f8d9f",
       "styleAttributes": {},
       "fromNode": "df3c240ea7b70b43",
@@ -1832,14 +2028,6 @@
       "toSide": "left"
     },
     {
-      "id": "49f14107823c7078",
-      "styleAttributes": {},
-      "fromNode": "cf068e95dba53e48",
-      "fromSide": "right",
-      "toNode": "ecef32c07af79667",
-      "toSide": "left"
-    },
-    {
       "id": "fc189fc5bedf116e",
       "styleAttributes": {},
       "fromNode": "ecef32c07af79667",
@@ -1872,27 +2060,11 @@
       "toSide": "left"
     },
     {
-      "id": "819c9a92c8d63995",
-      "styleAttributes": {},
-      "fromNode": "cf068e95dba53e48",
-      "fromSide": "right",
-      "toNode": "454d3a6bcbc23141",
-      "toSide": "left"
-    },
-    {
       "id": "b88e583bbddb26ec",
       "styleAttributes": {},
       "fromNode": "454d3a6bcbc23141",
       "fromSide": "right",
       "toNode": "95cfba24ed389321",
-      "toSide": "left"
-    },
-    {
-      "id": "547f8a3ffbeb4926",
-      "styleAttributes": {},
-      "fromNode": "cf068e95dba53e48",
-      "fromSide": "right",
-      "toNode": "61b5dd0d2fcfa745",
       "toSide": "left"
     },
     {
@@ -1925,14 +2097,6 @@
       "fromNode": "d1b31d5240a4315b",
       "fromSide": "right",
       "toNode": "54847502a6972cfa",
-      "toSide": "left"
-    },
-    {
-      "id": "297ddd03727c7365",
-      "styleAttributes": {},
-      "fromNode": "cf068e95dba53e48",
-      "fromSide": "right",
-      "toNode": "aef62358ec1573d0",
       "toSide": "left"
     },
     {
@@ -2140,8 +2304,8 @@
       "styleAttributes": {},
       "fromNode": "59655d8ed377735e",
       "fromSide": "right",
-      "toNode": "a6e9f95a5d9879ea",
-      "toSide": "left"
+      "toNode": "adf59ef8fec6edae",
+      "toSide": "top"
     },
     {
       "id": "9fdb971b82ea1a99",
@@ -2229,16 +2393,6 @@
       "toSide": "left"
     },
     {
-      "id": "94aba68eea0f7b15",
-      "styleAttributes": {
-        "pathfindingMethod": "square"
-      },
-      "fromNode": "ccac1b878039a354",
-      "fromSide": "right",
-      "toNode": "9b513db0b960e2da",
-      "toSide": "left"
-    },
-    {
       "id": "8aba8abee34f252a",
       "styleAttributes": {
         "pathfindingMethod": "square"
@@ -2306,14 +2460,6 @@
       "toEnd": "none"
     },
     {
-      "id": "c4985dfdea441247",
-      "styleAttributes": {},
-      "fromNode": "40dad80dc9b99106",
-      "fromSide": "right",
-      "toNode": "cf068e95dba53e48",
-      "toSide": "left"
-    },
-    {
       "id": "313f34dc8ec9710b",
       "styleAttributes": {},
       "fromNode": "60292ad66e9c2f89",
@@ -2360,6 +2506,532 @@
       "fromSide": "right",
       "toNode": "59655d8ed377735e",
       "toSide": "left"
+    },
+    {
+      "id": "f51f55e45a669e1d",
+      "styleAttributes": {},
+      "fromNode": "3827cae22cd38409",
+      "fromSide": "right",
+      "toNode": "5612484f854c5328",
+      "toSide": "left"
+    },
+    {
+      "id": "6310c502da68b2f1",
+      "styleAttributes": {},
+      "fromNode": "5612484f854c5328",
+      "fromSide": "right",
+      "toNode": "d9ee3c24d81f4eae",
+      "toSide": "left"
+    },
+    {
+      "id": "71ccf1cdd1e22f39",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "right",
+      "toNode": "a4537d6efb37b2cb",
+      "toSide": "left"
+    },
+    {
+      "id": "c1fb5efc535ef744",
+      "styleAttributes": {},
+      "fromNode": "a4537d6efb37b2cb",
+      "fromSide": "right",
+      "toNode": "55f49aea6db4bb44",
+      "toSide": "left"
+    },
+    {
+      "id": "e008b1f846a30063",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "right",
+      "toNode": "87e6cf078ede95f2",
+      "toSide": "left"
+    },
+    {
+      "id": "076290b8256eac5c",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "right",
+      "toNode": "7362b154b65ec92c",
+      "toSide": "left"
+    },
+    {
+      "id": "c514ccacd0327641",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "40dad80dc9b99106",
+      "fromSide": "right",
+      "toNode": "ecef32c07af79667",
+      "toSide": "left"
+    },
+    {
+      "id": "868ea304e00b4624",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "40dad80dc9b99106",
+      "fromSide": "right",
+      "toNode": "454d3a6bcbc23141",
+      "toSide": "left"
+    },
+    {
+      "id": "d47ff34efaca15a1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "40dad80dc9b99106",
+      "fromSide": "right",
+      "toNode": "61b5dd0d2fcfa745",
+      "toSide": "left"
+    },
+    {
+      "id": "e8a75efbaab630c3",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "40dad80dc9b99106",
+      "fromSide": "right",
+      "toNode": "aef62358ec1573d0",
+      "toSide": "left"
+    },
+    {
+      "id": "c74c463f5086de99",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "right",
+      "toNode": "785db80cda9eaa31",
+      "toSide": "left"
+    },
+    {
+      "id": "7878e642d21f58d7",
+      "styleAttributes": {
+        "path": "dotted",
+        "pathfindingMethod": "a-star"
+      },
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "top",
+      "toNode": "bf4ffa4da7d45362",
+      "toSide": "left"
+    },
+    {
+      "id": "ebc199c4cdc64208",
+      "styleAttributes": {},
+      "fromNode": "87e6cf078ede95f2",
+      "fromSide": "right",
+      "toNode": "79a2755626622468",
+      "toSide": "left"
+    },
+    {
+      "id": "ce0bc5c53969f214",
+      "styleAttributes": {},
+      "fromNode": "87e6cf078ede95f2",
+      "fromSide": "right",
+      "toNode": "e8503012f7879736",
+      "toSide": "left"
+    },
+    {
+      "id": "9d053ce6f6158bd6",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "right",
+      "toNode": "08640b462a617bee",
+      "toSide": "left"
+    },
+    {
+      "id": "c68298071153484b",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "bottom",
+      "toNode": "504549f5710a94c5",
+      "toSide": "top"
+    },
+    {
+      "id": "e3a9ae2e9a3cb068",
+      "styleAttributes": {},
+      "fromNode": "d9ee3c24d81f4eae",
+      "fromSide": "right",
+      "toNode": "3ce83f8f8588d72c",
+      "toSide": "left"
+    },
+    {
+      "id": "9f827dbed9d6c6cb",
+      "styleAttributes": {},
+      "fromNode": "3ce83f8f8588d72c",
+      "fromSide": "right",
+      "toNode": "da49a1960b3d595b",
+      "toSide": "left"
+    },
+    {
+      "id": "bd36ac9fa96d1273",
+      "styleAttributes": {},
+      "fromNode": "785db80cda9eaa31",
+      "fromSide": "right",
+      "toNode": "036522a51a41bd20",
+      "toSide": "left"
+    },
+    {
+      "id": "276769d0edc8b06e",
+      "styleAttributes": {
+        "path": "dotted",
+        "pathfindingMethod": "a-star"
+      },
+      "fromNode": "4adf09e65ae1f80c",
+      "fromSide": "right",
+      "toNode": "bf4ffa4da7d45362",
+      "toSide": "left"
+    },
+    {
+      "id": "a4d96be4ceb25cdc",
+      "styleAttributes": {},
+      "fromNode": "95896bf7be026f9f",
+      "fromSide": "bottom",
+      "toNode": "3827cae22cd38409",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "504246bd0e219c04",
+      "styleAttributes": {},
+      "fromNode": "59655d8ed377735e",
+      "fromSide": "right",
+      "toNode": "a6e9f95a5d9879ea",
+      "toSide": "left"
+    },
+    {
+      "id": "c6b718d5ff4d39b3",
+      "fromNode": "141ed29ad8c9e822",
+      "fromSide": "right",
+      "toNode": "5ec40c719b299d70",
+      "toSide": "left"
+    },
+    {
+      "id": "2533be445495ebab",
+      "styleAttributes": {
+        "pathfindingMethod": null
+      },
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "141ed29ad8c9e822",
+      "toSide": "left"
+    },
+    {
+      "id": "9763ae0abcd2b616",
+      "styleAttributes": {},
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "7372042644a8a9c0",
+      "toSide": "left"
+    },
+    {
+      "id": "2947e2d2ecf86c41",
+      "styleAttributes": {},
+      "fromNode": "7372042644a8a9c0",
+      "fromSide": "right",
+      "toNode": "d42ddf14281aef8f",
+      "toSide": "left"
+    },
+    {
+      "id": "30037db56ba510a5",
+      "styleAttributes": {},
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "85250fdfe43ed595",
+      "toSide": "left"
+    },
+    {
+      "id": "88e36433802d9ea6",
+      "styleAttributes": {},
+      "fromNode": "85250fdfe43ed595",
+      "fromSide": "right",
+      "toNode": "607a1de2c02dc6b4",
+      "toSide": "left"
+    },
+    {
+      "id": "d280adfb1b2cb34b",
+      "styleAttributes": {},
+      "fromNode": "607a1de2c02dc6b4",
+      "fromSide": "right",
+      "toNode": "7252188e30520125",
+      "toSide": "left"
+    },
+    {
+      "id": "2a4b6a01a6bdd15d",
+      "styleAttributes": {},
+      "fromNode": "9b513db0b960e2da",
+      "fromSide": "right",
+      "toNode": "9bdf8df4eb1392c1",
+      "toSide": "left"
+    },
+    {
+      "id": "c40f3ecd3d36fff1",
+      "styleAttributes": {},
+      "fromNode": "9bdf8df4eb1392c1",
+      "fromSide": "right",
+      "toNode": "5394682ce3d536fc",
+      "toSide": "left"
+    },
+    {
+      "id": "20334729e4805396",
+      "styleAttributes": {},
+      "fromNode": "9bdf8df4eb1392c1",
+      "fromSide": "right",
+      "toNode": "3292ca5cf8c2a87a",
+      "toSide": "left"
+    },
+    {
+      "id": "9568e70252d172e1",
+      "styleAttributes": {},
+      "fromNode": "5394682ce3d536fc",
+      "fromSide": "right",
+      "toNode": "178d1b8de82b1462",
+      "toSide": "left"
+    },
+    {
+      "id": "4c8b44a988a2e325",
+      "styleAttributes": {},
+      "fromNode": "178d1b8de82b1462",
+      "fromSide": "right",
+      "toNode": "56b071f398878bf4",
+      "toSide": "left"
+    },
+    {
+      "id": "f6784775efc81093",
+      "styleAttributes": {},
+      "fromNode": "178d1b8de82b1462",
+      "fromSide": "right",
+      "toNode": "84a424f3165f2681",
+      "toSide": "left"
+    },
+    {
+      "id": "67afb43764c98d7d",
+      "styleAttributes": {},
+      "fromNode": "3292ca5cf8c2a87a",
+      "fromSide": "right",
+      "toNode": "5aa162f656968727",
+      "toSide": "left"
+    },
+    {
+      "id": "76a1a063f13668d7",
+      "styleAttributes": {},
+      "fromNode": "5aa162f656968727",
+      "fromSide": "right",
+      "toNode": "731a4a8a78023bb1",
+      "toSide": "left"
+    },
+    {
+      "id": "d6889616fdc7afe8",
+      "styleAttributes": {
+        "path": "long-dashed",
+        "pathfindingMethod": "a-star",
+        "arrow": null
+      },
+      "fromNode": "85250fdfe43ed595",
+      "fromSide": "top",
+      "toNode": "f90f19fbf1fdf335",
+      "toSide": "left"
+    },
+    {
+      "id": "2836732589d0306a",
+      "styleAttributes": {
+        "path": "long-dashed",
+        "pathfindingMethod": "a-star",
+        "arrow": null
+      },
+      "fromNode": "5394682ce3d536fc",
+      "fromSide": "top",
+      "toNode": "f90f19fbf1fdf335",
+      "toSide": "left"
+    },
+    {
+      "id": "33015bbfb17a91ac",
+      "styleAttributes": {
+        "pathfindingMethod": "a-star",
+        "path": "long-dashed",
+        "arrow": null
+      },
+      "fromNode": "5ec40c719b299d70",
+      "fromSide": "right",
+      "toNode": "f90f19fbf1fdf335",
+      "toSide": "left"
+    },
+    {
+      "id": "f730792c14ecb21b",
+      "styleAttributes": {},
+      "fromNode": "6b90af6d0570153e",
+      "fromSide": "right",
+      "toNode": "7252188e30520125",
+      "toSide": "left"
+    },
+    {
+      "id": "167296ebee3d56ba",
+      "styleAttributes": {},
+      "fromNode": "85250fdfe43ed595",
+      "fromSide": "right",
+      "toNode": "6b90af6d0570153e",
+      "toSide": "left"
+    },
+    {
+      "id": "94aba68eea0f7b15",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "ccac1b878039a354",
+      "fromSide": "right",
+      "toNode": "9b513db0b960e2da",
+      "toSide": "left"
+    },
+    {
+      "id": "a4ee57725053ab23",
+      "styleAttributes": {},
+      "fromNode": "178d1b8de82b1462",
+      "fromSide": "right",
+      "toNode": "84ec6301dc61b8df",
+      "toSide": "left"
+    },
+    {
+      "id": "ba532b0344759224",
+      "styleAttributes": {},
+      "fromNode": "3827cae22cd38409",
+      "fromSide": "bottom",
+      "toNode": "d61d659fc0e5ba6b",
+      "toSide": "top"
+    },
+    {
+      "id": "8479f58ab22b2461",
+      "styleAttributes": {},
+      "fromNode": "d61d659fc0e5ba6b",
+      "fromSide": "right",
+      "toNode": "dea141371b6918fb",
+      "toSide": "left"
+    },
+    {
+      "id": "71babfb040b223f3",
+      "styleAttributes": {},
+      "fromNode": "dea141371b6918fb",
+      "fromSide": "right",
+      "toNode": "02762247e42f57a0",
+      "toSide": "left"
+    },
+    {
+      "id": "0ff34bdb6568dced",
+      "styleAttributes": {},
+      "fromNode": "dea141371b6918fb",
+      "fromSide": "right",
+      "toNode": "1133bada5dcc1cda",
+      "toSide": "left"
+    },
+    {
+      "id": "ef7ab0e101f2666d",
+      "styleAttributes": {},
+      "fromNode": "dea141371b6918fb",
+      "fromSide": "right",
+      "toNode": "a9e50488b546a653",
+      "toSide": "left"
+    },
+    {
+      "id": "3d234a9d88195c83",
+      "styleAttributes": {},
+      "fromNode": "3827cae22cd38409",
+      "fromSide": "right",
+      "toNode": "65f663c73ca55a2e",
+      "toSide": "top"
+    },
+    {
+      "id": "a52e5270a2951fef",
+      "styleAttributes": {},
+      "fromNode": "65f663c73ca55a2e",
+      "fromSide": "right",
+      "toNode": "38574576a09d4af3",
+      "toSide": "top"
+    },
+    {
+      "id": "e5ea7dfc742593e3",
+      "styleAttributes": {},
+      "fromNode": "38574576a09d4af3",
+      "fromSide": "bottom",
+      "toNode": "68c2f9609d7179df",
+      "toSide": "top"
+    },
+    {
+      "id": "ba5e32970b302563",
+      "styleAttributes": {},
+      "fromNode": "68c2f9609d7179df",
+      "fromSide": "bottom",
+      "toNode": "bd1df71b410b6102",
+      "toSide": "top"
+    },
+    {
+      "id": "0f03b6ed47e17ad0",
+      "styleAttributes": {},
+      "fromNode": "bd1df71b410b6102",
+      "fromSide": "bottom",
+      "toNode": "36f189cd56406cf5",
+      "toSide": "top"
+    },
+    {
+      "id": "5661a13c2350380d",
+      "styleAttributes": {},
+      "fromNode": "36f189cd56406cf5",
+      "fromSide": "right",
+      "toNode": "941734b0153e37f9",
+      "toSide": "left"
+    },
+    {
+      "id": "8ae4de6d648a9bf5",
+      "styleAttributes": {},
+      "fromNode": "dea141371b6918fb",
+      "fromSide": "right",
+      "toNode": "9eef410f12a6d30b",
+      "toSide": "left"
+    },
+    {
+      "id": "8892be19bbf8b815",
+      "styleAttributes": {},
+      "fromNode": "dea141371b6918fb",
+      "fromSide": "right",
+      "toNode": "a309cf2a22a0dc11",
+      "toSide": "left"
+    },
+    {
+      "id": "a1ea0a4f3acdc26a",
+      "styleAttributes": {},
+      "fromNode": "3827cae22cd38409",
+      "fromSide": "left",
+      "toNode": "505a04324439d9ac",
+      "toSide": "top"
+    },
+    {
+      "id": "7960b4c1680745f0",
+      "styleAttributes": {},
+      "fromNode": "d61d659fc0e5ba6b",
+      "fromSide": "left",
+      "toNode": "505a04324439d9ac",
+      "toSide": "bottom"
+    },
+    {
+      "id": "945e3f00ed90f888",
+      "styleAttributes": {},
+      "fromNode": "dea141371b6918fb",
+      "fromSide": "right",
+      "toNode": "9c0a412d8b826a8e",
+      "toSide": "left"
+    },
+    {
+      "id": "e90f659b8fc0c929",
+      "styleAttributes": {},
+      "fromNode": "d61d659fc0e5ba6b",
+      "fromSide": "bottom",
+      "toNode": "5a9e3b49da537311",
+      "toSide": "top"
+    },
+    {
+      "id": "29efcc6fd92b1db2",
+      "styleAttributes": {},
+      "fromNode": "5a9e3b49da537311",
+      "fromSide": "bottom",
+      "toNode": "7b49e2033fdc4fc3",
+      "toSide": "top"
     }
   ],
   "metadata": {}
