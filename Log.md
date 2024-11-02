@@ -22,3 +22,7 @@ form, section, natigation stack, navigation bar, @State, @FocusState, TextField,
 
 # November
 **1** Day 34
+Finished Challenge
+
+**2** Day 35
+- [ ] Project 2
