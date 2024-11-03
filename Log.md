@@ -21,8 +21,15 @@ segmented control, @FocusState
 form, section, natigation stack, navigation bar, @State, @FocusState, TextField, Picker, ForEach
 
 # November
+**November**: HStack, VStack, ZStack, .ignoreSafeArea(), Color.red, Color(red: 1, green: 2, blue: 3), gradients, linear gradient, radial gradient, angualr gradient, 
 **1** Day 34
 Finished Challenge
 
 **2** Day 35
 - [ ] Project 2
+- [x] 100 Days of SwiftUI Day 20
+- [x] 100 Days of SwiftUI Day 21
+
+**3** Day 36
+- [ ] 100 Days of SwiftUI Day 22
+  
