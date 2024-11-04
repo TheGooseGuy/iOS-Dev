@@ -31,5 +31,7 @@ Finished Challenge
 - [x] 100 Days of SwiftUI Day 21
 
 **3** Day 36
-- [ ] 100 Days of SwiftUI Day 22
+- [x] 100 Days of SwiftUI Day 22
   
+**4** Day 37
+- [ ] 100 Days of SwiftUI Day 23
