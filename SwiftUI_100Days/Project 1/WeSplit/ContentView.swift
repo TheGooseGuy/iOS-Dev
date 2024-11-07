@@ -62,6 +62,7 @@ struct ContentView: View {
                     }
                     Section("Total amount for check") {
                         Text(totalAmountChecked, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                            .foregroundColor(totalAmountChecked == 0 ? .red : .primary)
                     }
                     .navigationTitle("WeSplit")
                 }
