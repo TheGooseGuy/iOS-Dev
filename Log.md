@@ -12,16 +12,11 @@ Installed POSTMAN.
 Started [***100 Days of SwiftUI***](https://www.hackingwithswift.com/100/swiftui)  
 100 Days of SwiftUI Day 0  
 
-**October**: Swift Basics, Project 1 & Challenge 1
-canvas, form, section, navigation bar, state
-property wrapper, @State, two-way bindings
-picker, navigation stack, declarative interface desigh
-segmented control, @FocusState
-
-form, section, natigation stack, navigation bar, @State, @FocusState, TextField, Picker, ForEach
+**October**: Swift Basics, SwiftUI Basics, Project 1 & Challenge 1
 
 # November
-**November**: HStack, VStack, ZStack, .ignoreSafeArea(), Color.red, Color(red: 1, green: 2, blue: 3), gradients, linear gradient, radial gradient, angualr gradient, 
+**November**: 
+
 **1** Day 34
 Finished Challenge
 
@@ -34,4 +29,7 @@ Finished Challenge
 - [x] 100 Days of SwiftUI Day 22
   
 **4** Day 37
+- [ ] 100 Days of SwiftUI Day 23
+  
+**6** Day 39
 - [ ] 100 Days of SwiftUI Day 23
