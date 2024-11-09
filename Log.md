@@ -32,4 +32,14 @@ Finished Challenge
 - [ ] 100 Days of SwiftUI Day 23
   
 **6** Day 39
-- [ ] 100 Days of SwiftUI Day 23
+- [x] 100 Days of SwiftUI Day 23
+- [x] 100 Days of SwiftUI Day 24
+
+**7** Day 40
+- [ ] 100 Days of SwiftUI Day 25
+
+**8** Day 41
+
+To-do:
+- [ ] Fix project 2, add more flags based on assets and fix the sore issue.
+- [ ] Rock scissors and paper challenge
