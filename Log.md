@@ -38,7 +38,14 @@ Finished Challenge
 **7** Day 40
 - [ ] 100 Days of SwiftUI Day 25
 
-**8** Day 41
+**10** Day 43
+- [ ]  100 Days of SwiftUI Day 26
+- [x]  Read the book Mastering Swift 6
+- [x]  Read the book SwiftUI Views Quick Start
+
+**11** Day 44  
+Read SwiftUI Views Quick Start  
+
 
 To-do:
 - [ ] Fix project 2, add more flags based on assets and fix the sore issue.
