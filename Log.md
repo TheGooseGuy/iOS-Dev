@@ -46,6 +46,12 @@ Finished Challenge
 **11** Day 44  
 Read SwiftUI Views Quick Start  
 
+**15**  Day 48
+Project 4
+
+**16** Day 49
+Project 5
+
 
 To-do:
 - [ ] Fix project 2, add more flags based on assets and fix the sore issue.
