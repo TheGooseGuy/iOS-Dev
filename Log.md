@@ -14,49 +14,9 @@ Started [***100 Days of SwiftUI***](https://www.hackingwithswift.com/100/swiftui
 
 **October**: Swift Basics, SwiftUI Basics, Project 1 & Challenge 1
 
-# November
-**November**: 
+**November**: Project 2-6, Started CS193P
 
-**1** Day 34
-Finished Challenge
-
-**2** Day 35
-- [ ] Project 2
-- [x] 100 Days of SwiftUI Day 20
-- [x] 100 Days of SwiftUI Day 21
-
-**3** Day 36
-- [x] 100 Days of SwiftUI Day 22
-  
-**4** Day 37
-- [ ] 100 Days of SwiftUI Day 23
-  
-**6** Day 39
-- [x] 100 Days of SwiftUI Day 23
-- [x] 100 Days of SwiftUI Day 24
-
-**7** Day 40
-- [ ] 100 Days of SwiftUI Day 25
-
-**10** Day 43
-- [ ]  100 Days of SwiftUI Day 26
-- [x]  Read the book Mastering Swift 6
-- [x]  Read the book SwiftUI Views Quick Start
-
-**11** Day 44  
-Read SwiftUI Views Quick Start  
-
-**15**  Day 48
-Project 4
-
-**16** Day 49
-Project 5
-
-**20** Day 53
-
-**30** Day 63
-Started CS193P
-
-To-do:
-- [ ] Fix project 2, add more flags based on assets and fix the sore issue.
-- [ ] Rock scissors and paper challenge
+# December
+**1** Day 64
+- [ ] Lesson 1 Reading
+- [ ] Lesson 2 Lecture Video
