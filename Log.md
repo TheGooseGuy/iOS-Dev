@@ -17,6 +17,10 @@ Started [***100 Days of SwiftUI***](https://www.hackingwithswift.com/100/swiftui
 **November**: Project 2-6, Started CS193P
 
 # December
-**1** Day 64
+**2** Day 65
 - [ ] Lesson 1 Reading
-- [ ] Lesson 2 Lecture Video
+- [x] Lesson 2 Lecture Video
+
+**3** Day 66
+- [ ] Reading Tast
+- [ ] Lesson 2 extra work
